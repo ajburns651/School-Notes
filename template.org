@@ -6,7 +6,6 @@
 # EXPORT = C-c C-e h h
 
 # https://github.com/fniessen/refcard-org-mode
-# /Emphasize/ (italics), *strongly* (bold), and */very strongly/* (bold italics).
-# num:1 = numbering up to level 1 heading; num:nil = numbering for all headings
+# /Emphasize/ (italics), *strongly* (bold), and */very strongly/* (bold italics), \\ = return
 
 *
