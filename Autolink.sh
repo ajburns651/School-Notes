@@ -7,7 +7,7 @@ echo "" >> index.md
 printf "%b\n" $(git ls-tree -r main --name-only | grep html | grep Physics) > files.txt
 sed -e 's/^/<a href="/' files.txt > filesnew.txt
 sed -i -e 's|$|">|' filesnew.txt
-echo "$(cat files.txt)" | sed 's:.*/::' > filesnobefore.txt
+echo "$(cat files.txt)" | sed -et -e's|/|&\n|1;/\n/D' | tr / " "  > filesnobefore.txt
 sed -i -e 's/\.[^.]*$//' filesnobefore.txt
 paste -d'\0' filesnew.txt filesnobefore.txt > filesnewest.txt
 sed -i -e 's|$|</a>|' filesnewest.txt
@@ -34,7 +34,7 @@ echo "" >> index.md
 printf "%b\n" $(git ls-tree -r main --name-only | grep html | grep History) > files.txt
 sed -e 's/^/<a href="/' files.txt > filesnew.txt
 sed -i -e 's|$|">|' filesnew.txt
-echo "$(cat files.txt)" | sed 's:.*/::' > filesnobefore.txt
+echo "$(cat files.txt)" | sed -et -e's|/|&\n|1;/\n/D' | tr / " "  > filesnobefore.txt
 sed -i -e 's/\.[^.]*$//' filesnobefore.txt
 paste -d'\0' filesnew.txt filesnobefore.txt > filesnewest.txt
 sed -i -e 's|$|</a>|' filesnewest.txt
@@ -48,7 +48,7 @@ echo "" >> index.md
 printf "%b\n" $(git ls-tree -r main --name-only | grep html | grep Marketing) > files.txt
 sed -e 's/^/<a href="/' files.txt > filesnew.txt
 sed -i -e 's|$|">|' filesnew.txt
-echo "$(cat files.txt)" | sed 's:.*/::' > filesnobefore.txt
+echo "$(cat files.txt)" | sed -et -e's|/|&\n|1;/\n/D' | tr / " "  > filesnobefore.txt
 sed -i -e 's/\.[^.]*$//' filesnobefore.txt
 paste -d'\0' filesnew.txt filesnobefore.txt > filesnewest.txt
 sed -i -e 's|$|</a>|' filesnewest.txt
@@ -62,7 +62,7 @@ echo "" >> index.md
 printf "%b\n" $(git ls-tree -r main --name-only | grep html | grep Math) > files.txt
 sed -e 's/^/<a href="/' files.txt > filesnew.txt
 sed -i -e 's|$|">|' filesnew.txt
-echo "$(cat files.txt)" | sed 's:.*/::' > filesnobefore.txt
+echo "$(cat files.txt)" | sed -et -e's|/|&\n|1;/\n/D' | tr / " "  > filesnobefore.txt
 sed -i -e 's/\.[^.]*$//' filesnobefore.txt
 paste -d'\0' filesnew.txt filesnobefore.txt > filesnewest.txt
 sed -i -e 's|$|</a>|' filesnewest.txt
@@ -76,7 +76,7 @@ echo "" >> index.md
 printf "%b\n" $(git ls-tree -r main --name-only | grep html | grep Video-Film) > files.txt
 sed -e 's/^/<a href="/' files.txt > filesnew.txt
 sed -i -e 's|$|">|' filesnew.txt
-echo "$(cat files.txt)" | sed 's:.*/::' > filesnobefore.txt
+echo "$(cat files.txt)" | sed -et -e's|/|&\n|1;/\n/D' | tr / " "  > filesnobefore.txt
 sed -i -e 's/\.[^.]*$//' filesnobefore.txt
 paste -d'\0' filesnew.txt filesnobefore.txt > filesnewest.txt
 sed -i -e 's|$|</a>|' filesnewest.txt
