@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "" >> index.md
+echo "" > index.md
 
 # Physics Section
 echo "**Physics**" >> index.md
@@ -10,7 +10,8 @@ sed -i -e 's|$|">|' filesnew.txt
 echo "$(cat files.txt)" | sed 's:.*/::' > filesnobefore.txt
 sed -i -e 's/\.[^.]*$//' filesnobefore.txt
 paste -d'\0' filesnew.txt filesnobefore.txt > filesnewest.txt
-sed -e 's|$|</a>|' filesnewest.txt >> index.md
+sed -i -e 's|$|</a>|' filesnewest.txt
+sed -e '0~1 a\\' filesnewest.txt >> index.md
 rm -rf files.txt filesnew.txt filesnobefore.txt filesnewest.txt
 echo "" >> index.md
 
@@ -23,7 +24,8 @@ sed -i -e 's|$|">|' filesnew.txt
 echo "$(cat files.txt)" | sed 's:.*/::' > filesnobefore.txt
 sed -i -e 's/\.[^.]*$//' filesnobefore.txt
 paste -d'\0' filesnew.txt filesnobefore.txt > filesnewest.txt
-sed -e 's|$|</a>|' filesnewest.txt >> index.md
+sed -i -e 's|$|</a>|' filesnewest.txt
+sed -e '0~1 a\\' filesnewest.txt >> index.md
 rm -rf files.txt filesnew.txt filesnobefore.txt filesnewest.txt
 echo "" >> index.md
 
@@ -36,7 +38,8 @@ sed -i -e 's|$|">|' filesnew.txt
 echo "$(cat files.txt)" | sed 's:.*/::' > filesnobefore.txt
 sed -i -e 's/\.[^.]*$//' filesnobefore.txt
 paste -d'\0' filesnew.txt filesnobefore.txt > filesnewest.txt
-sed -e 's|$|</a>|' filesnewest.txt >> index.md
+sed -i -e 's|$|</a>|' filesnewest.txt
+sed -e '0~1 a\\' filesnewest.txt >> index.md
 rm -rf files.txt filesnew.txt filesnobefore.txt filesnewest.txt
 echo "" >> index.md
 
@@ -49,7 +52,8 @@ sed -i -e 's|$|">|' filesnew.txt
 echo "$(cat files.txt)" | sed 's:.*/::' > filesnobefore.txt
 sed -i -e 's/\.[^.]*$//' filesnobefore.txt
 paste -d'\0' filesnew.txt filesnobefore.txt > filesnewest.txt
-sed -e 's|$|</a>|' filesnewest.txt >> index.md
+sed -i -e 's|$|</a>|' filesnewest.txt
+sed -e '0~1 a\\' filesnewest.txt >> index.md
 rm -rf files.txt filesnew.txt filesnobefore.txt filesnewest.txt
 echo "" >> index.md
 
@@ -62,7 +66,8 @@ sed -i -e 's|$|">|' filesnew.txt
 echo "$(cat files.txt)" | sed 's:.*/::' > filesnobefore.txt
 sed -i -e 's/\.[^.]*$//' filesnobefore.txt
 paste -d'\0' filesnew.txt filesnobefore.txt > filesnewest.txt
-sed -e 's|$|</a>|' filesnewest.txt >> index.md
+sed -i -e 's|$|</a>|' filesnewest.txt
+sed -e '0~1 a\\' filesnewest.txt >> index.md
 rm -rf files.txt filesnew.txt filesnobefore.txt filesnewest.txt
 echo "" >> index.md
 
@@ -75,6 +80,7 @@ sed -i -e 's|$|">|' filesnew.txt
 echo "$(cat files.txt)" | sed 's:.*/::' > filesnobefore.txt
 sed -i -e 's/\.[^.]*$//' filesnobefore.txt
 paste -d'\0' filesnew.txt filesnobefore.txt > filesnewest.txt
-sed -e 's|$|</a>|' filesnewest.txt >> index.md
+sed -i -e 's|$|</a>|' filesnewest.txt
+sed -e '0~1 a\\' filesnewest.txt >> index.md
 rm -rf files.txt filesnew.txt filesnobefore.txt filesnewest.txt
 echo "" >> index.md

@@ -1,5 +1,6 @@
 # Ignore files
 *.org
 !template.org
-Autolink.sh.bak
+Autolink.sh.ba*
 index.md.bak
+
