@@ -3,7 +3,8 @@ echo "Links to Different Notes" > index.md
 echo "" >> index.md
 
 # Physics Section
-echo "Physics" >> index.md
+echo "**Physics**" >> index.md
+echo "" >> index.md
 printf "%b\n" $(git ls-tree -r main --name-only | grep html | grep Physics) > files.txt
 sed -e 's/^/<a href="/' files.txt > filesnew.txt
 sed -i -e 's|$|">|' filesnew.txt
@@ -15,7 +16,8 @@ rm -rf files.txt filesnew.txt filesnobefore.txt filesnewest.txt
 echo "" >> index.md
 
 # English Section
-echo "English" >> index.md
+echo "**English**" >> index.md
+echo "" >> index.md
 printf "%b\n" $(git ls-tree -r main --name-only | grep html | grep English) > files.txt
 sed -e 's/^/<a href="/' files.txt > filesnew.txt
 sed -i -e 's|$|">|' filesnew.txt
