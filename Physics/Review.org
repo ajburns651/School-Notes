@@ -27,10 +27,10 @@ $Fg=mg$ \\
 *** Elevator
 $T-Fg=ma$ \\
 *** Ramps
-$F_N=mgcos(\Theta)$ \\
-$F(||)=mgsin(\Theta)$ \\
-$F_f=uN=umgcos(\Theta)$ \\
-$tan(\Theta)=u$ \\
+$F_N=mg\cos(\theta)$ \\
+$F(||)=mg\sin(\theta)$ \\
+$F_f=uN=umg\cos(\theta)$ \\
+$tan(\theta)=u$ \\
 ** Graphs
 ** Practice Problems
 * Gravity/Circular Motion
@@ -45,6 +45,7 @@ $PE=mgh$ \\
 $KE=\frac12 mv^2$ \\
 $KE(ROT)=\frac12Iw^2$ \\
 $U_s=\frac12kx^2$ \\
+$W=Fx\cos(\theta)$ \\
 ** Graphs
 ** Practice Problems
 * Momentum
@@ -53,8 +54,26 @@ $p=mv$ \\
 $\Delta p =m \Delta v$ \\
 $\Delta p = F \Delta t$ \\
 $m_1v_1+m_2v_2=m_1v_1^\prime + m_2v_2^\prime$ \\
-$\frac12 m_1v_1^2+\frac12m_2v_2^2 = \frac12 m_1v_1^2 + m_2v_2^2$ \\
+$\frac12 m_1v_1^2+\frac12m_2v_2^2 = \frac12 m_1v_1_f^2 + m_2v_2_f^2$ \\
 * Oscillations
 ** Equations
+$T=2\pi\sqrt{L/g}$ \\
+$T=2\pi\sqrt{m/k}$ \\
+$T=1/f$ \\
+** Graphs
+** Practice Problems
 * Rotation
 ** Equations
+*** Torque
+$\tau=Fr\sin(\theta)$ \\
+$\tau=I\alpha$ \\
+$I=kmR^2$ \\
+*** Connecting
+$x=R\theta$ \\
+$v=R\omega$ \\
+$a=R\alpha$ \\
+*** Resulting
+$\theta = \frac12 \alpha t^2$ \\
+$\omega^2_f=\omega^2_i+2\alpha\theta$ \\
+$\alpha = \omega /t$
+$\omega = \theta /t$
