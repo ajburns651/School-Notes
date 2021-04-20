@@ -53,7 +53,7 @@ $p=mv$ \\
 $\Delta p =m \Delta v$ \\
 $\Delta p = F \Delta t$ \\
 $m_1v_1+m_2v_2=m_1v_1^\prime + m_2v_2^\prime$ \\
-$\frac12 m_1v_1^2+\frac12m_2v_2^2 = \frac12 m_1v_1^2^\prime + m_2v_2^2^\prime$ \\
+$\frac12 m_1v_1^2+\frac12m_2v_2^2 = \frac12 m_1v_1^2 + m_2v_2^2$ \\
 * Oscillations
 ** Equations
 * Rotation
