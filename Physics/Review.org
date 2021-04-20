@@ -72,4 +72,8 @@ $I=kmR^2$ \\
 $x=R\theta$ \\
 $v=R\omega$ \\
 $a=R\alpha$ \\
-*** 
+*** General
+$\theta = \frac12 \alpha t^2$ \\
+$\omega_f^2=\omega^2 + 2\alpha \theta$ \\
+$\alpha = \omega / t$ \\
+$\omega = \theta /t$ \\
