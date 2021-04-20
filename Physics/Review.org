@@ -9,7 +9,7 @@
 # /Emphasize/ (italics), *strongly* (bold), and */very strongly/* (bold italics).
 # num:1 = numbering up to level 1 heading; num:nil = numbering for all headings
 
-* Kinematics
+* *Kinematics*
 ** Equations
  $x=1/2at^2$ \\
  $a=v/t$ \\
@@ -27,7 +27,7 @@ $Fg=mg$ \\
 $T-Fg=ma$ \\
 *** Ramps
 $F_N=mgcos(\Theta)$ \\
-$F_|_|=mgsin(\Theta)$ \\
+$F(||)=mgsin(\Theta)$ \\
 $F_f=uN=umgcos(\Theta)$ \\
 $tan(\Theta)=u$ \\
 ** Graphs
@@ -42,8 +42,8 @@ $F_c=mv^2/r$ \\
 ** Equations
 $PE=mgh$ \\
 $KE=0.5mv^2$ \\
-$KE_R_O_T=0.5Iw^2$ \\
-$U_s=0.5kx^2$
+$KE(ROT)=0.5Iw^2$ \\
+$U_s=0.5kx^2$ \\
 
 * Momentum
 ** Equations
