@@ -14,4 +14,40 @@
  $x=1/2at^2$ \\
  $a=v/t$ \\
  $V^2=v^2+2ax$ \\
-** Wow
+ $V=d/t$ \\
+ $\Delta d=(v_f+v_i)/2 * \Delta t$ \\
+** Graphs
+** Practice Problems
+* Forces
+** Equations
+*** General
+$F=ma$ \\
+$Fg=mg$ \\
+*** Elevator
+$T-Fg=ma$ \\
+*** Ramps
+$F_N=mgcos(\Theta)$ \\
+$F_|_|=mgsin(\Theta)$ \\
+$F_f=uN=umgcos(\Theta)$ \\
+$tan(\Theta)=u$ \\
+** Graphs
+** Practice Problems
+* Gravity/Circular Motion
+** Equations
+$F_G=G(m_1m_2)/r^2$ \\
+$F_c=mv^2/r$ \\
+** Graphs
+** Practice Problems
+* Energy
+** Equations
+$PE=mgh$ \\
+$KE=0.5mv^2$ \\
+$KE_R_O_T=0.5Iw^2$ \\
+$U_s=0.5kx^2$
+
+* Momentum
+** Equations
+* Oscillations
+** Equations
+* Rotation
+** Equations
