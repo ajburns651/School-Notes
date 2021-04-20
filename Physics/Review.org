@@ -9,13 +9,13 @@
 # /Emphasize/ (italics), *strongly* (bold), and */very strongly/* (bold italics).
 # num:1 = numbering up to level 1 heading; num:nil = numbering for all headings
 
-* *Kinematics*
+* Kinematics
 ** Equations
- $x=1/2at^2$ \\
+ $x=\frac12at^2$ \\
  $a=v/t$ \\
  $V^2=v^2+2ax$ \\
  $V=d/t$ \\
- $\Delta d=(v_f+v_i)/2 * \Delta t$ \\
+ $\Delta d=\frac12(v_f+v_i) * \Delta t$ \\
 ** Graphs
 ** Practice Problems
 * Forces
@@ -41,12 +41,18 @@ $F_c=mv^2/r$ \\
 * Energy
 ** Equations
 $PE=mgh$ \\
-$KE=0.5mv^2$ \\
-$KE(ROT)=0.5Iw^2$ \\
-$U_s=0.5kx^2$ \\
-
+$KE=\frac12 mv^2$ \\
+$KE(ROT)=\frac12Iw^2$ \\
+$U_s=\frac12kx^2$ \\
+** Graphs
+** Practice Problems
 * Momentum
 ** Equations
+$p=mv$ \\
+$\Delta p =m \Delta v$ \\
+$\Delta p = F \Delta t$ \\
+$m_1v_1+m_2v_2=m_1v_1^\prime + m_2v_2^\prime$ \\
+$\frac12 m_1v_1^2+\frac12m_2v_2^2 = \frac12 m_1v_1^2^\prime + m_2v_2^2^\prime$ \\
 * Oscillations
 ** Equations
 * Rotation
