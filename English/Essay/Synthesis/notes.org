@@ -9,10 +9,10 @@
 # /Emphasize/ (italics), *strongly* (bold), and */very strongly/* (bold italics), \\ = return
 
 * General notes
-** 55 Minutes long - 40 minutes to write, 15 minutes to read
-** Skim and Scan instead of reading
-** Adress each source as if they speak to one another. Ex  no three prong, include multiple sources in each paragraph
-** Dont do authors or page numbers, just do source A. Must cite it. (Source A, Source B) if multiple
+55 Minutes long - 40 minutes to write, 15 minutes to read \\
+Skim and Scan instead of reading \\
+Adress each source as if they speak to one another. Ex  no three prong, include multiple sources in each paragraph \\
+Dont do authors or page numbers, just do source A. Must cite it. (Source A, Source B) if multiple \\
 * Structure
 ** Assertion
 the point you are making stated confidently and clearly; the argument or claim that you will prove within the chunk. \\
