@@ -8,6 +8,8 @@
 
 <a href="English/Essay/RA/Notes.html">Essay RA Notes</a>
 
+<a href="English/Essay/Synthesis/notes.html">Essay Synthesis notes</a>
+
 
 **History**
 
