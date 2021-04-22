@@ -1,11 +1,30 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:0 h:2 toc:1
 # num:0 = dont number any, h:2 = headings to level 2, toc:1 = only put a table of contents to level 1
-#+TITLE:     Template
+#+TITLE:     Synthesis Essay Review
 #+AUTHOR:    Alex Burns
 # EXPORT = C-c C-e h h
 
 # https://github.com/fniessen/refcard-org-mode
 # /Emphasize/ (italics), *strongly* (bold), and */very strongly/* (bold italics), \\ = return
 
-*
+* General notes
+** 55 Minutes long - 40 minutes to write, 15 minutes to read
+** Skim and Scan instead of reading
+** Adress each source as if they speak to one another. Ex  no three prong, include multiple sources in each paragraph
+** Dont do authors or page numbers, just do source A. Must cite it. (Source A, Source B) if multiple
+* Structure
+** Assertion
+the point you are making stated confidently and clearly; the argument or claim that you will prove within the chunk. \\
+** Context
+background information important to the subject and the introduction of the evidence \\
+** Evidence
+usually in the form of a direct quotation. Be sure to introduce and cite the quotation using MLA citation style. EX (Source A, B) (end of sentence) \\
+** Commentary
+these are your ideas. What is significant about the quotation, what does it mean, and/or how does it relate back to the assertion at the beginning? \\
+** Additional Context
+to set up the next quotation \\
+** Evidence
+quotation number two from the text that supports your assertion \\
+** Commentary
+these are your ideas about significance and meaning for the second quotation. Then, in the last sentence of commentary, refer back to the assertion and give paragraph closure. \\
