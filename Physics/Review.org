@@ -26,11 +26,11 @@
 - If there is a net force acting on an object, the object will accelerate; if there is no net force the object will maintain a constant (and possibly zero) velocity
 - We can think of forces acting on individual objects or an entire "system" of objects. In either case, Newton's 2nd Law: F=ma, still applies
 - Linking forces to other physics topics:
-**** Kinematics: Forces cause accelerations or changes in velocity
-**** Momentum: Forces cause changes in momentum (impulses)
-**** Energy: Forces act on objects to change the kinetic energy through doing work on such objects
-**** Oscillations: Forces can oppose motion. When this happens an object will oscillate around a fixed point
-**** Rotation: Forces causing rotations act at a distance "r" from the point of rotation and are called "torques"
+  - Kinematics: Forces cause accelerations or changes in velocity
+  - Momentum: Forces cause changes in momentum (impulses)
+  -  Energy: Forces act on objects to change the kinetic energy through doing work on such objects
+  - Oscillations: Forces can oppose motion. When this happens an object will oscillate around a fixed point
+  - Rotation: Forces causing rotations act at a distance "r" from the point of rotation and are called "torques"
 ** What do I really need to remember for the test?
 - You should be able to correctly identify which forces are acting on an object (or a system) at any moment. Remeber, the forces include: gravity, friction, normal, tension, and applied. Generally, air resistance is negligible
 - Make sure you can correctly draw a force diagram. Your force vectors should be drawn neatly and to scale, starting on the object and poitning outward
