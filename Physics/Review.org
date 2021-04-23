@@ -44,7 +44,7 @@ $Fg=mg$ \\
 $T-Fg=ma$ \\
 *** Ramps
 $F_N=mg\cos(\theta)$ \\
-$F(||)=mg\sin(\theta)$ \\
+$F(II)=mg\sin(\theta)$ \\
 $F_f=uN=umg\cos(\theta)$ \\
 $tan(\theta)=u$ \\
 ** Graphs
