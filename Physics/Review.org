@@ -19,6 +19,16 @@
  $\Delta d=\frac12(v_f+v_i) \Delta t$ \\
 ** Graphs
 ** Practice Problems
+- How do we calculate speed? Or velocity?
+- What do distance versus time graphs show? What do the different slopes mean?
+- What is acceleration?
+- When do you use d=st to solve for distance, and when do you have to use x=1/2at2?
+- When do you use s=d/t to solve for speed, and when do you have to use v=at?
+- If we have a curved line when we graph data (like on a distance vs time graph when an object is accelerating), what are the three different ways we can determine speed at a certain point?
+- How can we use the idea of freefall (g=-10m/s2) to solve problems for falling objects?
+- How can we determine the distance a projectile travels if we know the initial conditions of the object?
+- What do we know about the horizontal and vertical components of a projectile as it travels?
+
 * Forces
 ** Big Ideas
 - A force is a psuh or a pull on an object
@@ -49,6 +59,15 @@ $F_f=uN=umg\cos(\theta)$ \\
 $tan(\theta)=u$ \\
 ** Graphs
 ** Practice Problems
+- What are Newton’s three laws?
+- If an object has a=0, what else must be true? (There are 4 things)
+- What does it mean when forces are balanced? Or equilibrium?
+- How does the force applied on object A by object B compare to the one applied by object B on object A? (Which law is that?)
+- How does net force relate to acceleration?
+- How is normal force determined?
+- What are some examples of situations in which the normal force is not equal to an object’s weight?
+- When should you consider breaking forces up into component?
+
 * Gravity/Circular Motion
 ** Equations
 $F_G=G(m_1m_2)/r^2$ \\
@@ -56,6 +75,14 @@ $F_c=mv^2/r$ \\
 $T^2=(4\pi ^2/GM)r^3$ \\
 ** Graphs
 ** Practice Problems
+- If something is moving in a circle, what must be true about the net force on it? The acceleration?
+- What do we call the net force acting on an object travelling in a circle?
+- How do we calculate Fc? How does it change if we increase the mass?  The velocity? The radius?
+- The Fc is always caused by some force (or sum of forces). For example, for the moon going around the sun, the Fc is caused by gravity. It can be a single force, a component of one force, or the sum of multiple forces. Give an example of each.
+- How does the centripetal force change when a roller coaster is at the top of a loop versus at the bottom of a loop?
+- What caused the centripetal force on the toy airplane in the lab we did? How did we determine the magnitude (value) of the radius and of the centripetal force?
+- How is the force of gravity between two planets affected by their masses? Their distance apart?
+- How is the big equation for gravity (Gmm/r2) related to the weight equation (F=mg)?
 * Energy
 ** Equations
 $PE=mgh$ \\
@@ -65,6 +92,15 @@ $U_s=\frac12kx^2$ \\
 $W=Fx\cos(\theta)$ \\
 ** Graphs
 ** Practice Problems
+- What is “work” in a physics context?  How is it related to the outside force?
+- When does someone do more work or less?
+- How is work related to energy?
+- How do you determine gravitational PE?
+- How do you determine kinetic energy?
+- What does it mean to say that energy is conserved? Or transferred?
+- How are KE and PE related? (How is the height an object begins at related to its speed at h=0?)
+- What is power and how does it relate to energy?
+- How can elastic energy convert into kinetic energy? Or potential?
 * Momentum
 ** Equations
 $p=mv$ \\
@@ -72,13 +108,30 @@ $\Delta p =m \Delta v$ \\
 $\Delta p = F \Delta t$ \\
 $m_1v_1+m_2v_2=m_1v_1^\prime + m_2v_2^\prime$ \\
 $\frac12 m_1v_1^2+\frac12m_2v_2^2 = \frac12 m_1v_1^2 + m_2v_2^2$ \\
-* Oscillations
+** Graphs
+** Practice Problems
+- How do you determine momentum?
+- What does it mean to say that momentum is conserved?
+- What is the difference between elastic and inelastic collisions?
+- What is true about the forces on the two objects that are colliding (regardless of mass!)?
+- What is Impulse?
+- How is impulse related to the outside force?
+* Oscillations & Waves
 ** Equations
 $T=2\pi\sqrt{L/g}$ \\
 $T=2\pi\sqrt{m/k}$ \\
 $T=1/f$ \\
 ** Graphs
 ** Practice Problems
+- What is an oscillation?  What are some common examples of oscillations?
+- What factors determine the time it takes for things to oscillate (springs and pendulums)
+- What is a wave?  What are some examples of waves?  How are waves organized?
+- Compare and contrast different types of waves.
+- How are the various wave characteristics related?  (ie… period, frequency, wavelength, and wave speed)
+- What are some characteristics of sound waves and light waves?
+- How are open-ended tubes similar and different from closed-ended tubes?
+- How does your eye perceive color?
+- How do colors mix with light as compared to pigments?
 * Rotation
 ** Equations
 *** Torque
@@ -94,3 +147,14 @@ $\theta = \frac12 \alpha t^2$ \\
 $\omega_f^2=\omega^2 + 2\alpha \theta$ \\
 $\alpha = \omega / t$ \\
 $\omega = \theta /t$ \\
+** Graphs
+** Practice Problems
+- How are the rotational motion terms defined?  What is a radian?  How do we measure rotational motion quantities?
+- What is torque in all of its complexity?
+- What is the center of mass of an object?  How can multiple objects have a center of mass? How can you find the center of mass?
+- Why do things balance?  How is balancing related to torque?
+- How does net torque relate to net force?
+- How does the torque on an object relate to the rotational acceleration of an object?
+- How does a pulley work when we include the rotation/torque on the pulley?
+- Why does a ball roll down a hill and a box does not?
+- How does the shape of a round object affect its ability to roll down a hill?  Which shape is the best for rolling down a hill in terms of speed?
