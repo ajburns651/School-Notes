@@ -36,7 +36,7 @@
 - Make sure you can correctly draw a force diagram. Your force vectors should be drawn neatly and to scale, starting on the object and poitning outward
 - Take a moment to think about which force is larger for a problem without applying any math. Many times students will assume certain relationships that are common, but not always true.  For instance, the normal is often, but not always, equal to gravity.  For a block hangin by a string, tension may or may not be equal to gravity.  Double check the problem carefully!
 - Always start mathematical operations with an equation from the formula sheet.  If you are looking for gravity or friction use Fg=mg and f=μN, respectively.  Solving for centripetal force or the gravitational force between planets, use their respective equations.  If you see a block on a ramp and you say F(II)=mg $\sin(\theta)$ you will lose points as you have not shown where this equation came from and how it is derived.
-** Equation
+** Equations
 *** General
 $F=ma$ \\
 $Fg=mg$ \\
