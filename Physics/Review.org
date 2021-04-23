@@ -16,7 +16,7 @@
  $a=v/t$ \\
  $V^2=v^2+2ax$ \\
  $V=d/t$ \\
- $\Delta d=\frac12(v_f+v_i) * \Delta t$ \\
+ $\Delta d=\frac12(v_f+v_i) \Delta t$ \\
 ** Graphs
 ** Practice Problems
 * Forces
