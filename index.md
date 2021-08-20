@@ -1,15 +1,12 @@
 
 **AdvBusMgmt**
 
-<a href="</a>
+<a href=""></a>
 
 
 **APCompSciPrinc**
 
-
-**APCompSciPrinc**
-
-</a>
+<a href=""></a>
 
 
 **APLit**
@@ -17,33 +14,18 @@
 <a href=""></a>
 
 
-**APLit**
-
-<a href="</a>
-
-
 **APStats**
 
-
-**APStats**
-
-<a href="</a>
+<a href=""></a>
 
 
 **Calc3**
 
-
-**Calc3**
-
-<a href="</a>
+<a href=""></a>
 
 
 **Gov**
 
-
-**Gov**
-
-<a href="Gov/Vocab.html</a>
-
+<a href="Gov/Vocab.html">Vocab</a>
 
 
