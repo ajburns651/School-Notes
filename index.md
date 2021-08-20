@@ -6,15 +6,7 @@
 
 **APCompSciPrinc**
 
-</a>
-
-
-**APCompSciPrinc**
-
-
-**APLit**
-
-<a href="</a>
+<a href=""></a>
 
 
 **APLit**
@@ -24,26 +16,16 @@
 
 **APStats**
 
-</a>
-
-
-**APStats**
+<a href=""></a>
 
 
 **Calc3**
 
-</a>
-
-
-**Calc3**
+<a href=""></a>
 
 
 **Gov**
 
-</a>
-
-
-**Gov**
-
+<a href="Gov/Vocab.html">Vocab</a>
 
 
