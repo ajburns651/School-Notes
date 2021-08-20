@@ -1,0 +1,27 @@
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: num:0 h:2 toc:1
+# num:0 = dont number any, h:2 = headings to level 2, toc:1 = only put a table of contents to level 1
+#+TITLE:     Template
+#+AUTHOR:    Alex Burns
+# EXPORT = C-c C-e h h
+
+# https://github.com/fniessen/refcard-org-mode
+# /Emphasize/ (italics), *strongly* (bold), and */very strongly/* (bold italics), \\ = return
+
+*Chapter 1 Vocab:*
+
+* Section 2:
+
+** Unitary System: a system of government that gives all key powers to the nation/central government
+** Federal System: divides the powers of government between the national government and the state or principal government
+** Confederacy: a loose union of independent states
+** Constitution: a plan that provides rules for government
+** Constitutional Government: refers to a government in which a constitution has authority to place clearly recognized limits on the powers of those who govern
+** Preamble: a statement that sets forth the goals and purposes to be served by the government
+** Constitutional law: involves the interpretation and application of the constitution. Defines the extent and limits of government and rights of citizens
+** Politics: the effort to control or influence the conduct and policies of government
+** Industrialized nations: have generally large industries and advanced technology that provide a more comfortable way of life than developing nations
+** Developing nations: are only beginning to develop industry. Typically when a nation is first starting, these nations tend to be poorer than industrialized nations
+
+* Section 3:
+**
