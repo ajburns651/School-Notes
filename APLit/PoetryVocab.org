@@ -58,5 +58,5 @@
 *** Ballad: a song or songlike poem that tells a story mostly dealing with adventure or romance
 *** Elegy: a poem of mourning or grief, usually about someone who has died
 *** Sonet: a fourteen-line poem, usually written in iambic pentameter.  Shakespeare wrote these with a specific rhyming scheme of:
-ABAB CDCD EFEF GG
+**** ABAB CDCD EFEF GG
 *** Lymeric: a very short humorous or nonsensical poem with five lines and an AABBA rhyme scheme
