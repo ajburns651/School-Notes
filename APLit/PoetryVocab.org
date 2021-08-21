@@ -1,11 +1,62 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:0 h:2 toc:1
 # num:0 = dont number any, h:2 = headings to level 2, toc:1 = only put a table of contents to level 1
-#+TITLE:     Template
+#+TITLE:     Poetry Vocab
 #+AUTHOR:    Alex Burns
 # EXPORT = C-c C-e h h
 
 # https://github.com/fniessen/refcard-org-mode
 # /Emphasize/ (italics), *strongly* (bold), and */very strongly/* (bold italics), \\ = return
 
-*
+* Poetry Vocabulary
+** Elements
+*** Stanza: a group of consecutive lines in a poem that form a single unit
+*** Meter: a regular pattern of stressed and unstressed syllables
+**** ˘ /   ˘    /   ˘      /   ˘   /   ˘ /   ˘    /   ˘    /  ˘ /
+**** I do not like green eggs and ham, I do not like them Sam I am
+*** Iambic pentameter: a line of poetry containing five beats: unstressed syllable then a stressed syllable
+****  ˘   /     ˘     /     ˘   /  ˘   /  ˘     /
+**** But SOFT, what LIGHT from YONder WINdow BREAKS?
+*** Rhyme: the repetition of accented vowel sounds following them in words that are close together in a poem (such as mean and screen). Not all poems rhyme.
+*** End Rhyme: rhymes at the end of lines of poetry
+**** The world would end tomorrow afternoon
+**** But short of that, it might be too soon
+*** Rhyme Scheme: the pattern of end rhymes in a poem
+**** Little Miss Muffet  a
+**** Sat on a tuffet a
+**** Eating her curds and whey b
+**** Along came a spider c
+**** And sat down beside her c
+**** And frightened Miss Muffet away b
+*** Internal Rhyme: rhymes within lines of poetry
+**** Back in the chamber turning, all my soul within me burning.
+*** Approximate/Slant Rhyme: rhymes involving sounds that are similar but not exactly the same
+**** (such as leave/live)
+*** Refrain: a repeated sound, word, phrase, line, or group of lines
+**** “I gotta a feeling, that tonight’s gonna be a good night, that tonight’s gonna be a good night”
+*** Quatrain: four lined stanzas of any kind—rhymed, metered, etc.
+*** Prose: any writing that is not poetry
+**** (essays, novels, short stories, etc.)
+*** Couplet: two consecutive lines in a poem, usually rhyming
+**** The outlook wasn’t brilliant for the Mudville nine that day;
+**** The score stood four to two, with but one inning more to play;
+*** Onomatopoeia: the use of words whose sounds imitate or suggest their meaning
+**** (buzz, rustle, boom, tick tock, crunch, sizzle)
+*** Speaker: the voice talking to us in the poem
+**** The voice is sometimes, but not always, the poet. Think of the ______________ (or the voice) as a character the author has created.
+*** Pun: a play on words, either on different senses of the same  word or on the similar sense or sound of different words
+*** Assonance: repeated vowel sounds in non-rhyming words
+**** He was way late to pick the grapes in May.
+*** Alliteration: the repetition of the same consonant sounds in words that are close together, or the repetition of consonant sounds that are very similar
+**** She stopped and stood still for a long time
+
+** Types
+*** Ode: a lyric poem, rhymed or unrhymed, that praises something or someone
+*** Narrative: a poem that tells a story
+*** Free Verse: a poem that has no pattern of meter or regular rhyme scheme
+*** Lyric Poem: a poem that expresses the feelings or thoughts of a speaker; It does NOT tell a story
+*** Ballad: a song or songlike poem that tells a story mostly dealing with adventure or romance
+*** Elegy: a poem of mourning or grief, usually about someone who has died
+*** Sonet: a fourteen-line poem, usually written in iambic pentameter.  Shakespeare wrote these with a specific rhyming scheme of:
+ABAB CDCD EFEF GG
+*** Lymeric: a very short humorous or nonsensical poem with five lines and an AABBA rhyme scheme
