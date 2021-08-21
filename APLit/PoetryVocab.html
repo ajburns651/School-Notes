@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-08-20 Fri 19:29 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Poetry Vocab</title>
+<meta name="author" content="Alex Burns" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Poetry Vocab</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org3699592">Stanza: a group of consecutive lines in a poem that form a single unit</a></li>
+<li><a href="#org7015e90">Meter: a regular pattern of stressed and unstressed syllables</a></li>
+<li><a href="#org1ddddc7">Iambic pentameter: a line of poetry containing five beats: unstressed syllable then a stressed syllable</a></li>
+<li><a href="#org704df4c">Rhyme: the repetition of accented vowel sounds following them in words that are close together in a poem (such as mean and screen). Not all poems rhyme.</a></li>
+<li><a href="#org4f2c1e3">End Rhyme: rhymes at the end of lines of poetry</a></li>
+<li><a href="#org041b3bd">Rhyme Scheme: the pattern of end rhymes in a poem</a></li>
+<li><a href="#org2649ea3">Internal Rhyme: rhymes within lines of poetry</a></li>
+<li><a href="#orgacd70cc">Approximate/Slant Rhyme: rhymes involving sounds that are similar but not exactly the same</a></li>
+<li><a href="#org77535c2">Refrain: a repeated sound, word, phrase, line, or group of lines</a></li>
+<li><a href="#orgb2387e2">Quatrain: four lined stanzas of any kind—rhymed, metered, etc.</a></li>
+<li><a href="#orge2da4f4">Prose: any writing that is not poetry</a></li>
+<li><a href="#orgd890282">Couplet: two consecutive lines in a poem, usually rhyming</a></li>
+<li><a href="#org069925c">Onomatopoeia: the use of words whose sounds imitate or suggest their meaning</a></li>
+<li><a href="#orgd1e762a">Speaker: the voice talking to us in the poem</a></li>
+<li><a href="#orgc5ab7f1">Pun: a play on words, either on different senses of the same  word or on the similar sense or sound of different words</a></li>
+<li><a href="#orgaa74122">Assonance: repeated vowel sounds in non-rhyming words</a></li>
+<li><a href="#org201c32c">Alliteration: the repetition of the same consonant sounds in words that are close together, or the repetition of consonant sounds that are very similar</a></li>
+<li><a href="#org3643c21">Ode: a lyric poem, rhymed or unrhymed, that praises something or someone</a></li>
+<li><a href="#org1b9a480">Narrative: a poem that tells a story</a></li>
+<li><a href="#orgd5e7253">Free Verse: a poem that has no pattern of meter or regular rhyme scheme</a></li>
+<li><a href="#orgc176434">Lyric Poem: a poem that expresses the feelings or thoughts of a speaker; It does NOT tell a story</a></li>
+<li><a href="#org6a418f8">Ballad: a song or songlike poem that tells a story mostly dealing with adventure or romance</a></li>
+<li><a href="#org70f88b8">Elegy: a poem of mourning or grief, usually about someone who has died</a></li>
+<li><a href="#orgdeed076">Sonet: a fourteen-line poem, usually written in iambic pentameter.  Shakespeare wrote these with a specific rhyming scheme of:</a></li>
+<li><a href="#orgfc4674d">Lymeric: a very short humorous or nonsensical poem with five lines and an AABBA rhyme scheme</a></li>
+</ul>
+</div>
+</div>
+<p>
+Poetry Vocabulary
+</p>
+
+<p>
+Elements 
+</p>
+
+<div id="outline-container-org3699592" class="outline-2">
+<h2 id="org3699592">Stanza: a group of consecutive lines in a poem that form a single unit</h2>
+</div>
+<div id="outline-container-org7015e90" class="outline-2">
+<h2 id="org7015e90">Meter: a regular pattern of stressed and unstressed syllables</h2>
+<div class="outline-text-2" id="text-org7015e90">
+</div>
+<div id="outline-container-org03e4a78" class="outline-3">
+<h3 id="org03e4a78">˘ /    ˘    /      ˘       /   ˘       /     ˘ /  ˘       /   ˘       /   ˘ /</h3>
+<div class="outline-text-3" id="text-org03e4a78">
+<p>
+I do not like green eggs and ham, I do not like them Sam I am 
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org1ddddc7" class="outline-2">
+<h2 id="org1ddddc7">Iambic pentameter: a line of poetry containing five beats: unstressed syllable then a stressed syllable</h2>
+<div class="outline-text-2" id="text-org1ddddc7">
+</div>
+<div id="outline-container-org4e69bf4" class="outline-3">
+<h3 id="org4e69bf4">˘      /         ˘       /       ˘    /      ˘    /    ˘         /</h3>
+<div class="outline-text-3" id="text-org4e69bf4">
+<p>
+But SOFT, what LIGHT from YONder WINdow BREAKS? 
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org704df4c" class="outline-2">
+<h2 id="org704df4c">Rhyme: the repetition of accented vowel sounds following them in words that are close together in a poem (such as mean and screen). Not all poems rhyme.</h2>
+</div>
+<div id="outline-container-org4f2c1e3" class="outline-2">
+<h2 id="org4f2c1e3">End Rhyme: rhymes at the end of lines of poetry</h2>
+<div class="outline-text-2" id="text-org4f2c1e3">
+</div>
+<div id="outline-container-orgb93ac67" class="outline-3">
+<h3 id="orgb93ac67">The world would end tomorrow afternoon</h3>
+<div class="outline-text-3" id="text-orgb93ac67">
+<p>
+But short of that, it might be too soon 
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org041b3bd" class="outline-2">
+<h2 id="org041b3bd">Rhyme Scheme: the pattern of end rhymes in a poem</h2>
+<div class="outline-text-2" id="text-org041b3bd">
+</div>
+<div id="outline-container-org9521789" class="outline-3">
+<h3 id="org9521789">Little Miss Muffet</h3>
+<div class="outline-text-3" id="text-org9521789">
+<p>
+Sat on a tuffet
+Eating her curds and whey
+Along came a spider
+And sat down beside her
+And frightened Miss Muffet away
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org2649ea3" class="outline-2">
+<h2 id="org2649ea3">Internal Rhyme: rhymes within lines of poetry</h2>
+<div class="outline-text-2" id="text-org2649ea3">
+</div>
+<div id="outline-container-org30939bb" class="outline-3">
+<h3 id="org30939bb">Back in the chamber turning, all my soul within me burning.</h3>
+</div>
+</div>
+<div id="outline-container-orgacd70cc" class="outline-2">
+<h2 id="orgacd70cc">Approximate/Slant Rhyme: rhymes involving sounds that are similar but not exactly the same</h2>
+<div class="outline-text-2" id="text-orgacd70cc">
+</div>
+<div id="outline-container-orgf4b087f" class="outline-3">
+<h3 id="orgf4b087f">(such as leave/live)</h3>
+</div>
+</div>
+<div id="outline-container-org77535c2" class="outline-2">
+<h2 id="org77535c2">Refrain: a repeated sound, word, phrase, line, or group of lines</h2>
+<div class="outline-text-2" id="text-org77535c2">
+</div>
+<div id="outline-container-org1b9e0fe" class="outline-3">
+<h3 id="org1b9e0fe">“I gotta a feeling, that tonight’s gonna be a good night, that tonight’s gonna be a good night”</h3>
+</div>
+</div>
+<div id="outline-container-orgb2387e2" class="outline-2">
+<h2 id="orgb2387e2">Quatrain: four lined stanzas of any kind—rhymed, metered, etc.</h2>
+</div>
+<div id="outline-container-orge2da4f4" class="outline-2">
+<h2 id="orge2da4f4">Prose: any writing that is not poetry</h2>
+<div class="outline-text-2" id="text-orge2da4f4">
+</div>
+<div id="outline-container-org74d4caf" class="outline-3">
+<h3 id="org74d4caf">(essays, novels, short stories, etc.)</h3>
+</div>
+</div>
+<div id="outline-container-orgd890282" class="outline-2">
+<h2 id="orgd890282">Couplet: two consecutive lines in a poem, usually rhyming</h2>
+<div class="outline-text-2" id="text-orgd890282">
+</div>
+<div id="outline-container-orgee57c26" class="outline-3">
+<h3 id="orgee57c26">The outlook wasn’t brilliant for the Mudville nine that day;</h3>
+</div>
+<div id="outline-container-orgc48f81c" class="outline-3">
+<h3 id="orgc48f81c">The score stood four to two, with but one inning more to play;</h3>
+</div>
+</div>
+<div id="outline-container-org069925c" class="outline-2">
+<h2 id="org069925c">Onomatopoeia: the use of words whose sounds imitate or suggest their meaning</h2>
+<div class="outline-text-2" id="text-org069925c">
+</div>
+<div id="outline-container-orgcf1e00d" class="outline-3">
+<h3 id="orgcf1e00d">(buzz, rustle, boom, tick tock, crunch, sizzle)</h3>
+</div>
+</div>
+<div id="outline-container-orgd1e762a" class="outline-2">
+<h2 id="orgd1e762a">Speaker: the voice talking to us in the poem</h2>
+<div class="outline-text-2" id="text-orgd1e762a">
+</div>
+<div id="outline-container-org29fd2c7" class="outline-3">
+<h3 id="org29fd2c7">The voice is sometimes, but not always, the poet. Think of the <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></span> (or the voice) as a character the author has created.</h3>
+</div>
+</div>
+<div id="outline-container-orgc5ab7f1" class="outline-2">
+<h2 id="orgc5ab7f1">Pun: a play on words, either on different senses of the same  word or on the similar sense or sound of different words</h2>
+</div>
+<div id="outline-container-orgaa74122" class="outline-2">
+<h2 id="orgaa74122">Assonance: repeated vowel sounds in non-rhyming words</h2>
+<div class="outline-text-2" id="text-orgaa74122">
+</div>
+<div id="outline-container-org1ae43fe" class="outline-3">
+<h3 id="org1ae43fe">He was way late to pick the grapes in May.</h3>
+</div>
+</div>
+<div id="outline-container-org201c32c" class="outline-2">
+<h2 id="org201c32c">Alliteration: the repetition of the same consonant sounds in words that are close together, or the repetition of consonant sounds that are very similar</h2>
+<div class="outline-text-2" id="text-org201c32c">
+</div>
+<div id="outline-container-org56d917d" class="outline-3">
+<h3 id="org56d917d">She stopped and stood still for a long time</h3>
+<div class="outline-text-3" id="text-org56d917d">
+<p>
+Types 
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org3643c21" class="outline-2">
+<h2 id="org3643c21">Ode: a lyric poem, rhymed or unrhymed, that praises something or someone</h2>
+</div>
+<div id="outline-container-org1b9a480" class="outline-2">
+<h2 id="org1b9a480">Narrative: a poem that tells a story</h2>
+</div>
+<div id="outline-container-orgd5e7253" class="outline-2">
+<h2 id="orgd5e7253">Free Verse: a poem that has no pattern of meter or regular rhyme scheme</h2>
+</div>
+<div id="outline-container-orgc176434" class="outline-2">
+<h2 id="orgc176434">Lyric Poem: a poem that expresses the feelings or thoughts of a speaker; It does NOT tell a story</h2>
+</div>
+<div id="outline-container-org6a418f8" class="outline-2">
+<h2 id="org6a418f8">Ballad: a song or songlike poem that tells a story mostly dealing with adventure or romance</h2>
+</div>
+<div id="outline-container-org70f88b8" class="outline-2">
+<h2 id="org70f88b8">Elegy: a poem of mourning or grief, usually about someone who has died</h2>
+</div>
+<div id="outline-container-orgdeed076" class="outline-2">
+<h2 id="orgdeed076">Sonet: a fourteen-line poem, usually written in iambic pentameter.  Shakespeare wrote these with a specific rhyming scheme of:</h2>
+<div class="outline-text-2" id="text-orgdeed076">
+<p>
+ABAB CDCD EFEF GG
+</p>
+</div>
+</div>
+<div id="outline-container-orgfc4674d" class="outline-2">
+<h2 id="orgfc4674d">Lymeric: a very short humorous or nonsensical poem with five lines and an AABBA rhyme scheme</h2>
+<div class="outline-text-2" id="text-orgfc4674d">
+<p>
+*
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Alex Burns</p>
+<p class="date">Created: 2021-08-20 Fri 19:29</p>
+</div>
+</body>
+</html>
