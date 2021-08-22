@@ -17,5 +17,29 @@
 *** Distribution: The pattern of variation of a variable. Tells us what values the variable takes and how often it takes these values
 *** Inference: Drawing conclusions from the data at hand
 *** Pie Chart: Shows the distribution of a categorical variable as a “pie” whose slices are sized by the counts or percents for the categories
-*** Bar Graphs: Represent each category as a bar. The height of the barshows the category counts or percents. Are easier to make and easier to read
-*** Marginal Distributions: Appear at the right and bottom margins of the two-way table. The subtotal out of the total
+*** Bar Graphs: Represent each category as a bar. The height of the bar shows the category counts or percents. Are easier to make and easier to read
+*** Segmented Bar Graph: A bar graph where each category of a larger group (male or female for example) is stacked vertically. Able to easily compare the two groups
+*** Marginal Distributions: Appear at the right and bottom margins of the two-way table. The subtotal out of the total. Tells us nothing about the relationship between two categorial variables
+*** Conditional Distribution: Describes the values of that variable among individuals who have a specific value of another variable
+*** Association: If knowing the value of one variable helps predict the value of another
+*** Two-Way Table: Organizes data about two categorical variables measured for the same set of individuals. Summarizes large amounts of information by grouping outcomes into categories
+*** Frequency Table: Shows the count of various outcomes in a sample
+*** Relative Frequency Table: Represents the counts of various outcomes in a sample as percentages. Needs to show the fraction, ex 1/2, then the percent, ex 50%
+*** Round-off Error: The error between an approximate and the exact mathematical result. Common with percents as they are rounded
+
+** Section 2:
+*** Dotplot: One of the simplest to construct. Each data value is a dot above its location on a number line
+*** Outlier: An individual value that falls outside the overall pattern
+*** Mode: The most common value, data point with the highest frequency
+*** Symmetric: If the right and left sides of the graph are approximately mirrored images of each other
+*** Skewness: Skewed to the right (positive skew) = all values on left side, low amount on right side. Downwards staircase. Skewed left = all values on right side/staircase
+*** Unimodal: Having only one peak
+*** Bimodal: Having two clear peaks
+*** Multimodal: Having three or more peaks
+*** Stemplot: A graphical display for fairly small data sets. Give us a quick picture of the shape of distribution while including the actual numerical values
+*** Back to Back StemPlot: Two stem plots are put back to back with the common stem in the middle. The leaves are ordered outwards from the common stem
+*** Histogram: Groups nearby values together for quantitive variables. It is an approximate representation of the data
+*** Class: A grouping of values typically for a histogram
+*** Range: The difference between the greatest and lowest value
+*** Median: The middle value. The center value in a set of data
+*** Mean: The average of data, add up the values then divide by total number
