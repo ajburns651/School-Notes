@@ -23,4 +23,21 @@
 *** Developing nations: are only beginning to develop industry. Typically when a nation is first starting, these nations tend to be poorer than industrialized nations
 
 ** Section 3:
-***
+*** Autocracy: any system of government in which the power and authority to rule are in the hands of a single individual
+*** Monarchy: another form of autocratic government. In a monarchy, a kind queen or emporer exercises the supreme power of government
+*** Oligarchy: any system of government in which a small group holds power
+*** Democracy: any system of government in which rule is byt he people
+*** Republic: voters are the source of the governments authority
+*** Political Party: a group of individuals with broad common interests who organize to nominate canidates for office, win elections, conduct government and determine public policy
+*** Free Enterprise: the opportunity to control one's economic decisions
+
+** Section 4:
+*** Economics: the study of human efforts to satisfy seemingly unlimited wants through the use of limited resources
+*** Capitalism: the system of free enterprise, freedom of choice and individual incetntive for workers
+*** Free market: buyers and sellers are free to make unlimited economic decisions in the marketplace
+*** Laissez-faire Economy: to be let alone, government should keep their hands off the economy
+*** Socialism: the government owns the basic means of production, determines the use of resources, distributes the products and wages, and provides social services such as education and health care
+*** Bourgeoise: own the means of production, aka capitalists
+*** Proletariat: work to produce the goods, aka workers
+*** Communism: one class exists, property would all be held in common, and there would be no need for government
+*** Command Economy: decisions are made at the upper levels of government and handed down to managers
