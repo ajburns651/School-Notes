@@ -43,3 +43,8 @@
 *** Range: The difference between the greatest and lowest value
 *** Median: The middle value. The center value in a set of data
 *** Mean: The average of data, add up the values then divide by total number
+
+** Section 3:
+*** Mean: the most common measure of center which is the ordinary arthmetic average. X bar, x^_, or mew, u. The mean is sensitive to the influence of extreme observations so several far away outliers would cause the mean to be a worse measure of center. A mean is not a resistant measure of center
+*** Median: the midpoint of a distribution. The number such that half of the oversvations are bigger and half are smaller. A median is a resistant measure of center
+*** Range/Variance: The difference between the maximum and minimum values of a data set
