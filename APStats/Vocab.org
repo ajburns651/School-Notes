@@ -48,3 +48,9 @@
 *** Mean: the most common measure of center which is the ordinary arthmetic average. X bar, x^_, or mew, u. The mean is sensitive to the influence of extreme observations so several far away outliers would cause the mean to be a worse measure of center. A mean is not a resistant measure of center
 *** Median: the midpoint of a distribution. The number such that half of the oversvations are bigger and half are smaller. A median is a resistant measure of center
 *** Range/Variance: The difference between the maximum and minimum values of a data set
+* Chapter 2:
+** Section 1:
+*** Percentile: the pth percentile of a distribution is the value with p percent of the observations less than it
+*** Cumlative Relative Frequency Graph: Plot a point corresponding to the cumulative relative frequency in each class at the smallest value of the next class
+*** Z-Score (Standarized Score): tell us how many standard deviations from the mean an observation falls, and in what direction
+*** Transforming data: Converting the original observation from the original units of measurement to a standardized scale
