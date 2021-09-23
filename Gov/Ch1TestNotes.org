@@ -1,5 +1,5 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: num:0 h:1 toc:2
+#+OPTIONS: num:0 h:1 toc:3
 # num:0 = dont number any, h:2 = headings to level 2, toc:1 = only put a table of contents to level 1
 #+TITLE:     Ch1TestNotes
 #+AUTHOR:    Alex Burns
@@ -48,3 +48,15 @@
 *** Federal gov only has powers listed in the constitution
 *** The rest of the powers goes to the states and the people
 *** Limits Federal Government Power
+** Judicial review:
+*** Power of courts to strike down laws of government actions
+*** Established in 1803 in Marbury v Madison. Citizens can challenge constitutionality of laws in court by initaing lawsuits
+** Plessy v Ferguson: racial separation legal but must be equal facilities
+** Board v Brown: Racial segregation is not legal and is uncosntitutional since it is inherently unequal
+** Process of Amending:
+*** 2/3 vote from both houses of congress (all have been done this way)
+*** Constitutional convention as a request of 2/3 of all states (has never occurred)
+** Ratification of Amendments:
+*** 3/4 of state legislatures (all but 21st amendment)
+*** Ratifying conventions in 3/4 of states, resulting in a more democratic way
+**
