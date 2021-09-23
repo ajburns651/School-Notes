@@ -1,5 +1,5 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: num:0 h:1 toc:3
+#+OPTIONS: num:0 h:2 toc:3
 # num:0 = dont number any, h:2 = headings to level 2, toc:1 = only put a table of contents to level 1
 #+TITLE:     Ch1TestNotes
 #+AUTHOR:    Alex Burns
@@ -16,7 +16,8 @@
 *** Majoritarian: leaders are heavily influenced by the will of the people
 *** Elite Politics: minorities dominate policy making
 *** Pluralist: many groups compete with each other for control over policy
-** Fundamental democratic structures: Federalism, Separation of Powers, Checks and Balances
+** Fundamental democratic structures:
+*** Federalism, Separation of Powers, Checks and Balances
 ** Sources of the Constitution:
 *** A. British Customs, Magna Carta, English Bill of Rights
 *** B. European philosphers, John Locke, Thomas Hobbes, Montisseu
@@ -51,12 +52,24 @@
 ** Judicial review:
 *** Power of courts to strike down laws of government actions
 *** Established in 1803 in Marbury v Madison. Citizens can challenge constitutionality of laws in court by initaing lawsuits
-** Plessy v Ferguson: racial separation legal but must be equal facilities
-** Board v Brown: Racial segregation is not legal and is uncosntitutional since it is inherently unequal
+** Plessy v Ferguson:
+*** racial separation legal but must be equal facilities
+** Board v Brown:
+*** Racial segregation is not legal and is uncosntitutional since it is inherently unequal
 ** Process of Amending:
 *** 2/3 vote from both houses of congress (all have been done this way)
 *** Constitutional convention as a request of 2/3 of all states (has never occurred)
 ** Ratification of Amendments:
 *** 3/4 of state legislatures (all but 21st amendment)
 *** Ratifying conventions in 3/4 of states, resulting in a more democratic way
+** Federalism:
+*** Constitutional division of power between the national and state governments. Both get their powers from a constitution, not each other
+** Reasons for federalism:
+*** A. Allows unity, but not uniformity - allows for differences among states
+*** B. More suitable for a large nation
+*** C. More suitable for heterogenous people - allows for differences
+*** D. Encourages Exploration - states can try certain things on their own without it being a nationwide action
+*** E. Keeps the government closer to the people. Multiple points of access for citizens
+** Cooperative (marble cake) federalism:
+*** mingling of responsibilites between state and national gov since 1937
 **
