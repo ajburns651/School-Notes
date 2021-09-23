@@ -72,4 +72,20 @@
 *** E. Keeps the government closer to the people. Multiple points of access for citizens
 ** Cooperative (marble cake) federalism:
 *** mingling of responsibilites between state and national gov since 1937
-**
+** New Federalism:
+*** Shifting of some authority from national government back to states
+*** Also called the Devolution Revolution
+** Delegated Powers:
+*** Expressed: Stated in constitution
+*** Implied: Not stated explificty, but suggested implicity. Importance of elastic clause
+*** Inherent: not states explicitly, but held by a national gov by virtue of it being a national gov
+** State Powers:
+*** Reserved to states
+*** Amendment 10, any powers not given to national gov are given to states
+*** For Example: voting requirements, schools, vehicle code
+** Conccurent Powers:
+*** A. Granted to congress but not denied by Constitution or courts to the states. Held by both national and state government
+*** B. For Example: borrowing, courty system, taxing, law enforcment agencies
+*** C. Questions of fed/state authority are decided by courts
+** National Supremacy (Article 6):
+*** national gov is supreme in case of conflict
