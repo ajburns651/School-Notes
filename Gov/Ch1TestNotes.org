@@ -1,102 +1,50 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: num:0 h:2 toc:2
+#+OPTIONS: num:0 h:1 toc:2
 # num:0 = dont number any, h:2 = headings to level 2, toc:1 = only put a table of contents to level 1
-#+TITLE:     Vocabulary
+#+TITLE:     Ch1TestNotes
 #+AUTHOR:    Alex Burns
 # EXPORT = C-c C-e h h
 
 # https://github.com/fniessen/refcard-org-mode
 # /Emphasize/ (italics), *strongly* (bold), and */very strongly/* (bold italics), \\ = return
 
-* Chapter 1 Vocab:
-
-** Section 2:
-*** Unitary System: a system of government that gives all key powers to the nation/central government
-*** Federal System: divides the powers of government between the national government and the state or principal government
-*** Confederacy: a loose union of independent states
-*** Constitution: a plan that provides rules for government
-*** Constitutional Government: refers to a government in which a constitution has authority to place clearly recognized limits on the powers of those who govern
-*** Preamble: a statement that sets forth the goals and purposes to be served by the government
-*** Constitutional law: involves the interpretation and application of the constitution. Defines the extent and limits of government and rights of citizens
-*** Politics: the effort to control or influence the conduct and policies of government
-*** Industrialized nations: have generally large industries and advanced technology that provide a more comfortable way of life than developing nations
-*** Developing nations: are only beginning to develop industry. Typically when a nation is first starting, these nations tend to be poorer than industrialized nations
-
-** Section 3:
-*** Autocracy: any system of government in which the power and authority to rule are in the hands of a single individual
-*** Monarchy: another form of autocratic government. In a monarchy, a kind queen or emporer exercises the supreme power of government
-*** Oligarchy: any system of government in which a small group holds power
-*** Democracy: any system of government in which rule is byt he people
-*** Republic: voters are the source of the governments authority
-*** Political Party: a group of individuals with broad common interests who organize to nominate canidates for office, win elections, conduct government and determine public policy
-*** Free Enterprise: the opportunity to control one's economic decisions
-
-** Section 4:
-*** Economics: the study of human efforts to satisfy seemingly unlimited wants through the use of limited resources
-*** Capitalism: the system of free enterprise, freedom of choice and individual incetntive for workers
-*** Free market: buyers and sellers are free to make unlimited economic decisions in the marketplace
-*** Laissez-faire Economy: to be let alone, government should keep their hands off the economy
-*** Socialism: the government owns the basic means of production, determines the use of resources, distributes the products and wages, and provides social services such as education and health care
-*** Bourgeoise: own the means of production, aka capitalists
-*** Proletariat: work to produce the goods, aka workers
-*** Communism: one class exists, property would all be held in common, and there would be no need for government
-*** Command Economy: decisions are made at the upper levels of government and handed down to managers
-
-* Chapter 2 Vocab:
-
-** Section 1:
-*** Limited Government: the power of the monarch, or government, was limited and not absolute
-*** Representative Government: a government in which people elect delegates to make laws and conduct government
-*** Separation of powers: divided power of government so that there were checks and balances between the branches
-*** Magna Carta: great charter that provided the basis for the principle of limited government to king john in 1215
-*** Petition of right: Severly limited the king's power in 1628
-*** English Bill of Rights: a document that was later very important to american colonies which set clear limits on what a ruler can and can not do
-*** Mayflower Compact: signed in 1620, stands as the first example of many colenial plans for self-government
-*** Great Fundamanetals: the first basic system of laws in the english colonies in 1636
-
-** Section 2:
-*** Revenue: the money a government collects from taxes or other sources
-*** Embargo: an agreement prohibiting trade against a country, in this case britian
-*** Stamp Act: the first direct tax on colonists. Required them to pay a tax on legal documents, pamphlets, newspapers etc in 1765
-*** Intolerable Acts: Closed the boston harbor, removed self-government from massachusetts. A set of laws against the colonists in response to the boston tea party
-*** Albany Plan of Union: an inovative plan for uniting the colonies, but it was rejected because it gave too much power to an assemably of representatives
-
-** Section 4:
-*** Father of the Constitution: James Madison (from virginia) was the father if the constitution, he was a strong advocate for having a strong national government. He was the author of the basic plan of government that the Convention eventually adopted
-*** Patrick Henry: A strong opponent of the constitution who demanded that the new constitution clearly guarentee the people's freedoms. Feared that a strong national government might take away the human rights won in the revolution
-
-* Chapter 3 Vocab:
-** Section 1:
-*** Article: seven divisions, each covers a general topic
-*** Jurisdiction: the authority, of the supreme court and other federal courts to rule on cases
-*** Supremacy Clause: Established that the constitution, laws passed by congress, and treaties of the united states are the laws of the land
-*** Amendments: Changes to something, our constitution has twenty seven of them. Changes the original laws of the constitution
-*** Popular Sovereignty: the concept of the people ruling, based on the consent of the governed
-*** Federalism: power is divided between national and state governments
-*** Separation of Powers: Each branch has its own responsibilities, supposed to prevent any one branch from becoming too powerfull
-*** Checks and Balances: each branch of government exercises some control over the other branches
-*** Vetoing: The act of rejecting something, when a president rejects congress's legislation
-*** Judicial Review: The power of the courts to declare laws and actions of local, state, or national governments invalid if they violate the constitution
-*** Marbury V Madison: A case that established the precedent for federal courts to rule on the actions of government
-
-** Section 2:
-*** Expressed Powers: powers directly stated in the constitution
-*** Enumerated Powers: 18 itemized powers of Congress written in Article 1 section 8
-*** Elastic Clause: gives Congress the right to make all laws "necessary and proper" to carry out the powers expressed in the other clauses of Aritcle 1. This is because it lets Congress "stretch" its powers to meet situations the Founders could never have anticipated
-*** Federal Bureaucracy: part of the white house made up of all exectuive branch employees
-*** McCulloch v. Maryland: In 1819 when the supreme court ruled in favor of a broad interpretation. The court supported the idea that the elastic clause gave Congress the right to make any laws necessary to carry out its other powers
-* Chapter 5 Vocab:
-** Section 1:
-*** House: must be 25 yr old, citizen for 7 years, and legal resident of state they represent
-*** Senate: must be 30 yr old, citizen for 9 years, and legal resident of state they represent
-*** Bicameral legislature: made up of two houses; the senate, and the house of representatives
-*** Sessions: meetings that last one of the two years
-*** Census: the population count every 10 years
-*** Reaportionment: the population of each state determines the new number of representatives to which each is entitled
-*** Redistricting: the process of setting up new district lines after reaportionment has been completed
-*** Gerrymandering: the political party controlling the state government draws a districts boundaries to gain advantage
-*** At-large: all voters of each state elect senators at-large, or statewide
-*** Censure: a vote for formal dissaproval of a members actions
-*** Incumbent: those members who already hold office
-*** El Brige Gerry: an early Democratic-Republican governor of Massachucets who created a districting plan that gave his party an advanatge through packing or cracking
-*** Twenty-Seventh Amendment: prohibs a sitting congress from giving itself a pay raise
+* Chapter 1 Test Notes:
+** Democracy: Rule by the people
+*** Direct: rule by the people themselves
+*** Indirect/republic: rule by elected representatives
+** Democratic theory:
+*** Majoritarian: leaders are heavily influenced by the will of the people
+*** Elite Politics: minorities dominate policy making
+*** Pluralist: many groups compete with each other for control over policy
+** Fundamental democratic structures: Federalism, Separation of Powers, Checks and Balances
+** Sources of the Constitution:
+*** A. British Customs, Magna Carta, English Bill of Rights
+*** B. European philosphers, John Locke, Thomas Hobbes, Montisseu
+*** C. Colonial experiences, power of purse held by elected assembaly
+*** D. State constitutions written after Declaration of Independence
+** Articles of Confederation:
+*** Weak because there was no power to levy tax, no chief exectuive, no national judiciary, no power to regular interstate or foreign commerce, no national curency
+*** Leads to annapolis convention of 1786
+** Shays Rebellion:
+*** showed the neccesity of a stronger national government
+** Areas argued about during the convention:
+*** Virgina Plan: representation based on population
+*** New Jersey Plan: equal representation among states
+*** Connecticut (Great) Compromise: a bicamel legislature with a popularly elected house (based on population) and a senate (equal representation) elected by state legislatures
+*** 3/5 Compromise: Slaves would count as 3/5 of a person for tax and representation purposes
+** Federalists:
+*** Who: Tended to be porperty owners, creditors, or merchants
+*** Views: Eliets most fit to govern, feared excess of democracy, feared strong central government
+*** Leaders: Hamilton, Madison, Washington, Jay
+** Anti-Federalists:
+*** Who: Tended to be small farmers, shopkeepers, frontiersmen
+*** Views: govt be close to people, weak central government, strong state government, mainly argued for a Bill of Rights
+** Checks and Balances
+*** Restricted one branch from becoming too powerful
+*** For example: veto, veto overide, appointment and confirmation, treaty making and ratification, defense funding and commander in chief
+** Political Parties:
+*** weaken checks and balances, brings people in government together, prevalance of divided gov, ie, pres of one party and a congress of the opposite party
+** Amendment 10:
+*** Federal gov only has powers listed in the constitution
+*** The rest of the powers goes to the states and the people
+*** Limits Federal Government Power
