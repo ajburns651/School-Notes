@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-09-22 Wed 21:02 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ch1TestNotes</title>
+<meta name="author" content="Alex Burns" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Ch1TestNotes</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org896e414">Chapter 1 Test Notes:</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org896e414" class="outline-2">
+<h2 id="org896e414">Chapter 1 Test Notes:</h2>
+<div class="outline-text-2" id="text-org896e414">
+</div>
+<ul class="org-ul">
+<li><a id="org5c51274"></a>Democracy: Rule by the people<br />
+<ul class="org-ul">
+<li><a id="orgd6f572b"></a>Direct: rule by the people themselves<br /></li>
+<li><a id="org4b9ae2d"></a>Indirect/republic: rule by elected representatives<br /></li>
+</ul>
+</li>
+<li><a id="orgae57ea4"></a>Democratic theory:<br />
+<ul class="org-ul">
+<li><a id="org2532240"></a>Majoritarian: leaders are heavily influenced by the will of the people<br /></li>
+<li><a id="orgabe488f"></a>Elite Politics: minorities dominate policy making<br /></li>
+<li><a id="org5a3f9b6"></a>Pluralist: many groups compete with each other for control over policy<br /></li>
+</ul>
+</li>
+<li><a id="orga93bca1"></a>Fundamental democratic structures: Federalism, Separation of Powers, Checks and Balances<br /></li>
+<li><a id="org079014e"></a>Sources of the Constitution:<br />
+<ul class="org-ul">
+<li><a id="org57d148a"></a>A. British Customs, Magna Carta, English Bill of Rights<br /></li>
+<li><a id="org49b13ec"></a>B. European philosphers, John Locke, Thomas Hobbes, Montisseu<br /></li>
+<li><a id="orge379a49"></a>C. Colonial experiences, power of purse held by elected assembaly<br /></li>
+<li><a id="org5e4ef87"></a>D. State constitutions written after Declaration of Independence<br /></li>
+</ul>
+</li>
+<li><a id="orgc561f0a"></a>Articles of Confederation:<br />
+<ul class="org-ul">
+<li><a id="org976d0fc"></a>Weak because there was no power to levy tax, no chief exectuive, no national judiciary, no power to regular interstate or foreign commerce, no national curency<br /></li>
+<li><a id="orgaf5b8d4"></a>Leads to annapolis convention of 1786<br /></li>
+</ul>
+</li>
+<li><a id="orgd2d306f"></a>Shays Rebellion:<br />
+<ul class="org-ul">
+<li><a id="orgbe0f597"></a>showed the neccesity of a stronger national government<br /></li>
+</ul>
+</li>
+<li><a id="orgad131af"></a>Areas argued about during the convention:<br />
+<ul class="org-ul">
+<li><a id="orgb0a64fd"></a>Virgina Plan: representation based on population<br /></li>
+<li><a id="orgf276b22"></a>New Jersey Plan: equal representation among states<br /></li>
+<li><a id="org42da1c4"></a>Connecticut (Great) Compromise: a bicamel legislature with a popularly elected house (based on population) and a senate (equal representation) elected by state legislatures<br /></li>
+<li><a id="orgaa33c4c"></a>3/5 Compromise: Slaves would count as 3/5 of a person for tax and representation purposes<br /></li>
+</ul>
+</li>
+<li><a id="org82d15cf"></a>Federalists:<br />
+<ul class="org-ul">
+<li><a id="orgb3144ae"></a>Who: Tended to be porperty owners, creditors, or merchants<br /></li>
+<li><a id="org7fccb70"></a>Views: Eliets most fit to govern, feared excess of democracy, feared strong central government<br /></li>
+<li><a id="org7e11f24"></a>Leaders: Hamilton, Madison, Washington, Jay<br /></li>
+</ul>
+</li>
+<li><a id="org8bb239a"></a>Anti-Federalists:<br />
+<ul class="org-ul">
+<li><a id="org412dcae"></a>Who: Tended to be small farmers, shopkeepers, frontiersmen<br /></li>
+<li><a id="org2a8e73f"></a>Views: govt be close to people, weak central government, strong state government, mainly argued for a Bill of Rights<br /></li>
+</ul>
+</li>
+<li><a id="org5b8a5be"></a>Checks and Balances<br />
+<ul class="org-ul">
+<li><a id="org16544ca"></a>Restricted one branch from becoming too powerful<br /></li>
+<li><a id="org1acc696"></a>For example: veto, veto overide, appointment and confirmation, treaty making and ratification, defense funding and commander in chief<br /></li>
+</ul>
+</li>
+<li><a id="org9b74518"></a>Political Parties:<br />
+<ul class="org-ul">
+<li><a id="org7609a72"></a>weaken checks and balances, brings people in government together, prevalance of divided gov, ie, pres of one party and a congress of the opposite party<br /></li>
+</ul>
+</li>
+<li><a id="orgff49b81"></a>Amendment 10:<br />
+<ul class="org-ul">
+<li><a id="org06f5c8b"></a>Federal gov only has powers listed in the constitution<br /></li>
+<li><a id="org2dc07fc"></a>The rest of the powers goes to the states and the people<br /></li>
+<li><a id="org9a7276f"></a>Limits Federal Government Power<br /></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Alex Burns</p>
+<p class="date">Created: 2021-09-22 Wed 21:02</p>
+</div>
+</body>
+</html>
