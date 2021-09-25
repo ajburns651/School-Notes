@@ -1,11 +1,131 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:0 h:2 toc:1
 # num:0 = dont number any, h:2 = headings to level 2, toc:1 = only put a table of contents to level 1
-#+TITLE:     Template
+#+TITLE:     Macbeth Act Questions
 #+AUTHOR:    Alex Burns
 # EXPORT = C-c C-e h h
 
 # https://github.com/fniessen/refcard-org-mode
 # /Emphasize/ (italics), *strongly* (bold), and */very strongly/* (bold italics), \\ = return
 
-*
+* Act 1
+** Scene 1:
+*** What effect is Shakespeare creating by beginning the play with this scene?
+**** Shakespeare is creating the effect of conflict through the thunder and lightning, as well as good vs evil with the witches. He also sets the theme of the play through the words “Fair is Foul, and Foul is fair”. Creating suspense and mystery from the weird sisters.
+
+*** What is the meaning of the line, “Fair is foul, and foul is fair”?
+**** Fair is good looking on the in and out, and foul is bleh/gross. The meaning is that those who appear on the outside to be fair are actually on the inside foul(up to no good) while those who appear foul on the outside are fair. Things are not as they appear, and are in reality opposites.
+
+*** What poetic device is used in this scene and to what effect?
+**** Alliteration was used in this scene (F in fair foul fog and filthy), it allows the audience to consider and think about the meaning since the alliteration draws attention to it and emphasizes the witches base slovenliness.
+
+** Scene 2:
+*** What is the purpose of this scene?
+**** The purpose of this scene is that Duncan, who is the king of Scotland, hears of the victory of the war thanks to Macbeth and Banquo, and sends messengers to Macbeth to congratulate him and give him thane of Cawdor. We also learn of Macbeth as being a hero as he is brave
+
+*** What image do readers have of Macbeth’s bravery and ability as a warrior?
+**** We have the image that Macbeth is a hero who willingly risks his life as he charges into battle when the enemies swarm Macbeth and Banquo. That he is fearless, and a good man fighting for his country.
+
+*** Who had Macbeth and Banquo been fighting?
+**** Macbeth and Banquo were fighting soldiers of Norway and a rebellion led by Macdonwald.
+
+*** What does King Duncan tell Ross to do?
+**** King Duncan tells Ross to give Macbeth thane of Cawdor since the person who was originally the thane died in battle. Ross is basically king Duncan’s messenger as he is sent of to tell Macbeth of his new position/news
+
+** Scene 3:
+*** What does the audience learn about the Weird Sisters from their conversation at the beginning of the scene?
+**** The audience learns that the Weird Sisters are creating a storm because of someone that disrespected them. We get the impression that they are powerful and mischievous.
+
+*** When Macbeth says, “So foul and fair a day I have not seen,” to what is he referring? What could be the dramatic irony in this line?
+**** Macbeth is referring to the battle and the people that died along with him as foul, but their victory as fair. The dramatic irony is that he has not seen the foul and fair part of the day yet, as the witches telling him what he will be (thane of Cawdor, king) etc is actually a curse on his mentality as now he feels as he must do whatever he can to achieve it.
+
+*** What prophecies do the Weird Sisters make regarding Macbeth? How does he react?
+**** They make the prophecies that Macbeth will become Thane of Cawdor and King afterwards. He reacts by being intrigued while Banquo tells them to be quiet and he doesn't care about what they say.
+
+*** What do the Weird Sisters see in the future for Banquo?
+**** The weird sisters see that the son’s of Banquo will become kings after Macbeth's death. They will take over the thrown.
+
+*** How do Macbeth and Banquo react to the experience after the Weird Sisters vanish?
+**** Banquo thinks that they came and went and that it doesn't matter what they say. They consider that the meds they took are causing delusions and corrupting their minds. Then they joke around with each other.
+
+*** What “terms” does Ross indicate accompany the title Thane of Cawdor?
+**** That he is both thane of cawdor and thane of glamis. He also states that the Thane of Cawdor is the most worthy thane, as it is thine.
+
+*** As the others talk, what does Macbeth’s aside reveal about his thinking?
+**** Macbeth’s aside reveals that he is curious and even thought about killing the king to fulfill his prophecy. He is starting to believe what the witches told him and he thinks it is too real and that it is his new destiny. Essentially becoming mentally crazy
+*** How does Banquo’s comment support the “Fair is foul, foul is fair” theme?
+
+**** Banquo’s comment supports the theme that he should be careful and not believe everything that he hears, which ultimately leads him to killing Duncan with the help of his manipulative wife. He is saying that while this all sounds great on the outside, something bad would likely come as a result of it.
+
+*** What does Macbeth mean in his aside about two truths being prologue to the act of the imperial theme?
+**** Macbeth means that both things that the witches said (thane of cawdor and king) will both come true, and that he will become the king (imperial theme). Macbeth in his aside means that these things sound good but there must be an ill that comes with them (cannot be ill, cannot be good)
+
+*** What dramatic conventions does Shakespeare use to establish character and begin to lay out his tragedy?
+**** Shakespeare uses a constant back and forth of Macbeth’s ideas/opinions to establish that he does not have the ruthlessness to kill king Duncan, and that he himself would decide not to kill Duncan. It lays out the tragedy of someone else convincing him to do so, as Banquo convinces him that his thoughts are ridiculous and that he is crazy and needs to rethink what happened as a single strange occurrence.
+
+** Scene 4:
+*** Why was the former Thane of Cawdor executed?
+**** The former Thane of Cawdor was executed because of his sins and that he confessed his treasons (Deserved to die).
+
+*** What effect does Shakespeare create by having Macbeth and Banquo enter just as they are discussing the execution of the former Thane of Cawdor?
+**** Shakespeare creates the effect of misplaced trust, which adds to the theme of the play. Macbeth enters after Duncan reflects as he thought he was a great man but he turned out evil which almost foreshadows the man who Macbeth is going to become.
+
+*** What announcement does the King make to everyone present and what is Macbeth’s reaction?
+**** The king makes the announcement that Malcolm is going to become king after Duncan instead of Macbeth, that Malcolm is the new heir to the throne. Macbeth tells duncan that he is going to tell his wife of there approach, trying to get out of there as fast as possible, but he is actually thinking (below).
+
+*** In his last speech in this scene, what does Macbeth reveal?
+**** Macbeth realizes that he must retreat and never become king or to kill both Duncan and Malcolm in order to secure the throne. Plants his thoughts of murder in his mind.
+
+** Scene 5:
+*** What is the purpose of the letter?
+**** The purpose of the letter is to let Lady Macbeth know about the witches and what they said and how he as become thane of cawdor etc, and then she later finds out that Duncan is staying at there place.
+
+*** What do readers learn about Macbeth from Lady Macbeth’s reaction to the letter?
+**** Readers learn that Macbeth is too kind of a person to kill Duncan, as he is currently too loyal to do so. She knows that he is going to make his mind up against killing him.
+
+*** What do readers learn about Lady Macbeth from her reaction to the letter?
+**** Readers learn that Lady Macbeth is ruthless. She doesn't say that she is happy her husband didn't die or proud of him, she instead instantly starts thinking of how to kill Duncan, and decides on doing so without having a second thought.
+
+*** Does Lady Macbeth fear Macbeth will not be king if he does not murder Duncan?
+**** Yes, Lady Macbeth wants to be queen so much that she will not let anything get in the way of her husband becoming King.
+
+*** How does the news about King Duncan’s expected arrival affect her? What is she planning?
+**** It leads her to start planning his murder. She realizes that the easiest place to do something like this is in her own home, since they would be the ones protecting him and watching over him instead of his servants.
+
+*** Why does Lady Macbeth pray to be unsexed? Explain.
+**** Lady Macbeth prays to be unsexed because she believes that women are not cruel enough to do such a deed, while men are. She wants to become a man inorder to kill Duncan herself. Again, she is doing anything for her husband to be king.
+
+*** What does Shakespeare establish in Macbeth and Lady Macbeth’s first exchange when Macbeth arrives home?
+**** Shakespeare establishes that Duncan will not see the sun of the next morning and that by saying all-hail hereafter! She is going to do everything to become queen and she fully believes its Macbeth’s destiny.
+
+*** In what way does Lady Macbeth’s advice to Macbeth relate to the “fair is foul” theme?
+**** Lady Macbeth’s advice to appear like a flower but be a serpent on the inside relates to the theme of the novel in that those who appear nasty have good intentions while those who are fake have bad intentions. Parallels to social media today and “Float like a butterfly, sting like a bee” from cars. (haha)
+
+** Scene 6:
+*** What is the purpose of this brief scene?
+**** The purpose of this scene is to set the scene that Duncan is happy to be staying at macbeths as he things he is the best man he knows, a hero, brave, etc. Then they run into lady macbeth which sets the scene later where macbeth isnt there.
+
+*** How does this scene contribute to the “fair is foul” theme?
+**** The scene contributes to the theme in that Lady Macbeth appears super friendly and nice as usual even though she is scheming to murder him in his sleep.
+
+** Scene 7:
+*** What arguments does Macbeth raise for not killing Duncan?
+**** Macbeth raises the arguments that he should not kill Duncan because he does not want karma or a chain of violence to come back to him, and the Duncan does not know that he is his enemy because Macbeth is his kinsman and his host, who should be the ones protecting him from someone murdering him.
+
+*** What does he finally conclude?
+**** He finally concludes to not murder Duncan and that doing so would lead to bad consequences.
+
+*** What consequences does Macbeth fear if he commits the murder?
+**** He fears that he himself might be killed by Duncan’s sons or that nothing is stopping others from killing him. Also that if he gets caught then they will likely be killed.
+
+*** What does Lady Macbeth say in an attempt to goad her husband into the murder?
+**** Lady Macbeth manipulates him and guilt trips him by saying that he made a promise and that he should not break it, even though he never made a promise to kill Duncan.
+
+*** Macbeth’s response to her about what a man may dare is frequently quoted. What is his meaning?
+**** Its meaning is that by hiding that they are the ones who killed Duncan by framing the services and crying and acting sad to the public, they are the ones being fake and are hiding their false and negative hearts, again contributing to the theme of the tragedy.
+
+*** What is the point of Lady Macbeth’s baby imagery? Note the times images of babies and mothers are presented in this play.
+**** The point is that she is manipulating Macbeth into killing Duncan by saying that she would do anything for him, including killing a baby for his good, which is obviously very crazy and highly frowned upon.
+
+*** What exposition does Shakespeare give the audience in this scene?
+**** Shakespeare creates irony between Macbeth and Lady Macbeth through the contrast of their opinions, as well as indirectly mentions the manipulation of those who love you for their own good. Shows a negative power of love that many do not typically consider.
