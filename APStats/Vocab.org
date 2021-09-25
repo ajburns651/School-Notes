@@ -8,7 +8,7 @@
 # https://github.com/fniessen/refcard-org-mode
 # /Emphasize/ (italics), *strongly* (bold), and */very strongly/* (bold italics), \\ = return
 
-* Chapter 1:
+* Chapter 1
 ** Section 1:
 *** Individuals: the objects described by a set of data. Individuals may be people, animals, or things
 *** Variable: any characteristic of an individual. A variable can take different values for individuals
@@ -48,9 +48,22 @@
 *** Mean: the most common measure of center which is the ordinary arthmetic average. X bar, x^_, or mew, u. The mean is sensitive to the influence of extreme observations so several far away outliers would cause the mean to be a worse measure of center. A mean is not a resistant measure of center
 *** Median: the midpoint of a distribution. The number such that half of the oversvations are bigger and half are smaller. A median is a resistant measure of center
 *** Range/Variance: The difference between the maximum and minimum values of a data set
-* Chapter 2:
+
+* Chapter 2
 ** Section 1:
 *** Percentile: the pth percentile of a distribution is the value with p percent of the observations less than it
 *** Cumlative Relative Frequency Graph: Plot a point corresponding to the cumulative relative frequency in each class at the smallest value of the next class
 *** Z-Score (Standarized Score): tell us how many standard deviations from the mean an observation falls, and in what direction
 *** Transforming data: Converting the original observation from the original units of measurement to a standardized scale
+
+* Chapter 3
+** Section 2:
+*** Regression line: a line that describes how a variable y changes as an explanatory variable x changes. We often use a regression line to predict the value of y for a given value of x
+*** Extrapolation: the use of a regression line for prediction far outside the interval of values of the explanatory variable x used to obtain the line
+*** Residual: is the difference between an observed value of the response variable and the value predicted by the regression line
+*** Least-Squares Regression Line: the line that makes the sum of the squared residuals as small as possible.
+*** Residual Plot: a scatterplot of the residuals against the explanatory variable. Residual plots help us assess whether a linear model is appropriate
+*** Standard Deviation of Residuals: the approximate size of a typical prediction error
+*** Coefficent of Determination: the fraction of the variation in the values of y that is accounted for by the least-squares regression line of y on x
+*** Outlier: an observation that lies outside the overall pattern of the other observations. Points that are outliers in the y-direction but not the x-direction of a scatterplot have large residuals. Other outliers may not have large residuals
+*** Influential Point: a point that if removed, the result of the calculation would change. Points that are outliers in the x-direction of a scatterplot are often influential for the least-squares regression line
