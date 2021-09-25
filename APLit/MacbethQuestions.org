@@ -1,5 +1,5 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: num:0 h:2 toc:1
+#+OPTIONS: num:0 h:2 toc:2
 # num:0 = dont number any, h:2 = headings to level 2, toc:1 = only put a table of contents to level 1
 #+TITLE:     Macbeth Act Questions
 #+AUTHOR:    Alex Burns
