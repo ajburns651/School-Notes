@@ -129,3 +129,68 @@
 
 *** What exposition does Shakespeare give the audience in this scene?
 **** Shakespeare creates irony between Macbeth and Lady Macbeth through the contrast of their opinions, as well as indirectly mentions the manipulation of those who love you for their own good. Shows a negative power of love that many do not typically consider.
+* Act 2
+** Scene 1:
+*** What is significant about the weather? (Discuss symbolism)
+**** The thing that is significant about the weather is that the moon is down, symbolizing how night is upon us and therefore evil is upon the castle. We associate light with good items and dark with evil
+
+*** What do you suppose is keeping Banquo from sleeping?
+**** I suppose that the prophecy, witches, and worrying about macbeth is presenting Banquo from sleeping
+
+*** What is significant about Macbeth’s saying, “I think not of them,” after Banquo had admitted to dreaming about the Weird Sisters?
+**** Macbeth is lying to his best friend because he does not want Banquo to be suspicious of his plan to murder the king. Anything that he would say about them would make him a suspect in Banquo’s eyes.
+
+*** What does Macbeth mean when he says to Banquo, “If you shall cleave to my consent, when ’tis, / It shall make honour for you”?
+**** Macbeth means that if Banquo supports him if he realizes that Macbeth killed Duncan than it will come to his benefit. He will gain something for keeping quiet.
+
+*** What is significant about Banquo’s reply?
+**** It is significant in Banquo’s reply that he says “So I loose none”, which is when he is indirectly questioning if Macbeth is going to do something he shouldnt. It also says that Banquo’s allegiance is to Duncan, so he would kill Macbeth if it came to it.
+
+*** In his soliloquy after Banquo leaves, what does Macbeth tell the audience (readers) he sees? What could account for this apparition?
+**** Macbeth tells the audience that he sees the dagger that was used to kill duncan. His guilt could account for this apparition as he is worried and doesnt think that it is a great idea.
+
+*** Why does Shakespeare have Macbeth hallucinate?
+**** Shakespeare has Macbeth hallucinate to show how his mind is going crazy and messing with him as he contemplates killing the king, who he is loyal to.
+
+** Scene 2:
+*** Compare Macbeth’s and Lady Macbeth’s reactions immediately after the crime.
+**** Macbeth is thinking that this is terrible news and is acting shocked. Lady Macbeth also acts shocked by being way more loud and fake about it by fainting or pretending to.
+
+*** Why does Lady Macbeth not commit the murder when she is in the room?
+**** She does not commit the murder because Duncan reminded her of her father. Otherwise she says that she had done it.
+
+*** Macbeth, apparently troubled by the murder he has just committed, tells Lady Macbeth what he saw and heard. She tells him, “These deeds must not be thought of this way.” Why?
+**** She wants him to forget what happened and just move on thinking that its fine. She wants Macbeth to forget about the guilt and to not think of it as a sin.
+
+*** Macbeth’s response is frequently quoted. What is the sense of this response?
+**** The sense of his response is that the deed is going to drive him crazy because he cannot live with the guilt and the constant thought of someone accusing him of the murder.
+
+*** How does Lady Macbeth get Duncan’s blood on her hands?
+**** Lady Macbeth gets Duncan’s blood on her hands by using the dagger that was used to kill Duncan.
+
+*** What does Macbeth’s refusal to return to Duncan’s chamber echo?
+**** It echos that Macbeth is too light hearted and manipulated into committing such a task. He regrets his decision deeply and wishes to reverse it
+
+** Scene 3:
+*** The Porter’s scene, or the “knocking at the gate,” is a much debated scene by scholars, but many agree it is the typical comic relief scene seen in Shakespeare’s plays. What do you suppose the dramatic purpose of a comic relief scene is? Why is the Porter’s soliloquy in prose rather than poetry? What lines contain the bawdy humor so often found in these scenes?
+**** The dramatic purpose of a comic relief scene is to juxtapose it with the scene of a tragedy/murder. This is to lighten the mood of the audience after a murder has been committed. The porter’s soliloquy is in prose because it is supposed to show how he is from a lower class and is not as elegant as the rest. Lines 29-37 when he is responding to Macduff and talking about what alcohol causes one to do.
+*** How is the theme idea of “a crime against nature” reinforced in this scene?
+**** The theme is reinforced through the comparison of Duncan to a church and the devil was the one who killed Duncan. The devil in this case is Macbeth, and this theme is represented by Macduffs explanation of the deed to the others, as he questions why someone would commit such a terrible crime.
+*** What does Shakespeare accomplish with Macduff’s allusion to “a new Gorgon”?
+**** Shakespeare causes the effect of an inside job/crime in his allusion. He is saying that someone did not protect the castle as a gorgon is a mythical creature that is supposed to turn evil into stone, creating the effect in the audience of contrast in that Macbeth committed the crime even though he was supposed to be defending the king.
+*** How does Macbeth react to the discovery of Duncan’s body?
+**** Macbeth reacts to the discovery of Duncan’s body by stating that he would have rather died than see the sight of his dead king, and the audience realizes how he is being truthful and how guilt has overwhelmed him.
+*** How does Lady Macbeth react?
+**** Lady Macbeth reacts by asking for help as she faints to the ground. She might also be drawing the suspicion off of Macbeth by causing a distraction, but that is rather unlikely as she likely does not have his back. People think that she is too soft and would never think of committing such an evil crime.
+*** Who is the one who points out the inappropriateness of Lady Macbeth’s initial response?
+**** Macduff, as Lady Macbeth acts annoyed by the bell but Macduff knows the crime that has commited. Macduff states that she is too fragile of a woman and would faint if she heard what had happened in the night.
+*** What is the predominant image in this scene, and what effect does it create?
+**** The predominant image is a facade in that Lady Macbeth and Macbeth are both acting fake. This creates the effect of something unusual happening here, which is later expanded in scene 4 by the old man and ross.
+*** What double meaning might Shakespeare have intended for Macbeth’s line, “He does: he did appoint so,” in response to Lennox’s asking, “Goes the King hence today?”
+**** Shakespeare intended that Duncan intended to leave today but Macbeth knows that he won't because he killed him in his sleep.
+
+** Scene 4:
+*** What is the purpose of this scene?
+**** The purpose of this scene is to show how unusual and weird the crime was. The two are trying to figure out who committed it, but they don't understand the motives behind the servants doing so. This is possibly hinting at Duncan's two sons receiving the blame because they are the ones who are fleeing and leaving the country. We know that this is because they think that they are going to be killed next.
+*** What additional natural, or “unnatural,” events further the “crime against nature” theme?
+**** The events that further the crime against nature theme are that because the two believe the servants had no motive to do it, and that the two sons are leaving the country but they think it is not because they bribed anyone, then the most likely person who would have commited the crime would be Macbeth, but he is said to be loyal to the King and such an honorable person, and it would not be right if he killed the person he cared about.
