@@ -66,6 +66,7 @@
 *** Patrick Henry: A strong opponent of the constitution who demanded that the new constitution clearly guarentee the people's freedoms. Feared that a strong national government might take away the human rights won in the revolution
 
 * Chapter 3 Vocab:
+
 ** Section 1:
 *** Article: seven divisions, each covers a general topic
 *** Jurisdiction: the authority, of the supreme court and other federal courts to rule on cases
@@ -85,7 +86,9 @@
 *** Elastic Clause: gives Congress the right to make all laws "necessary and proper" to carry out the powers expressed in the other clauses of Aritcle 1. This is because it lets Congress "stretch" its powers to meet situations the Founders could never have anticipated
 *** Federal Bureaucracy: part of the white house made up of all exectuive branch employees
 *** McCulloch v. Maryland: In 1819 when the supreme court ruled in favor of a broad interpretation. The court supported the idea that the elastic clause gave Congress the right to make any laws necessary to carry out its other powers
+
 * Chapter 5 Vocab:
+
 ** Section 1:
 *** House: must be 25 yr old, citizen for 7 years, and legal resident of state they represent
 *** Senate: must be 30 yr old, citizen for 9 years, and legal resident of state they represent
@@ -100,6 +103,7 @@
 *** Incumbent: those members who already hold office
 *** El Brige Gerry: an early Democratic-Republican governor of Massachucets who created a districting plan that gave his party an advanatge through packing or cracking
 *** Twenty-Seventh Amendment: prohibs a sitting congress from giving itself a pay raise
+
 ** Section 2:
 *** Rules Committe: Serves as the traffic officer in the house, helping to direct the flow of legislation. Can move or delay a vote on a bill, settles disputes among other house commitees, and blocks unwanted bills from reaching the floor
 *** Constituents: the people in districts they represent
@@ -109,8 +113,37 @@
 *** Bills: a proposed law by congress until it is passed by bouth houses and signed by the president
 *** Calendars: list bills up for consideration
 *** Quorum: the minimum number of members who must be present to permit a legislative body to take offical action
+
 ** Section 3:
 *** President Pro Tempore: in charge if the vice president is not there. Is elected by the senate and its normally the senates most senior member
 *** Filibuster: to stall the legislative process to prevent a vote on a bill
 *** Cloture: a procedure that allows each senator to speak only one hour on a bill under debate. 3/5 of the senate needs to vote, which is 60/100 total members
 *** Calendar of General Orders: lists all of the bills the senate will consider, while the executive calendar schedules treaties and nominations
+
+** Section 4:
+*** Standing Commitees: Commitees that continue from one congress to the next
+*** Subcommitees: specializes in a subcategory of its standing commitees responsibility
+*** Select Commitees: study one specefic issue and report their findings to the senate or the house. These are typically temporary commitees
+*** Joint Committees: Made up from members of both the house and the senate
+*** Conference Commitee: a temporary set up commitee for debate between the House and Senate after both have passed different versions of the same bill
+*** Seniority System: gives the member of the majority party with the longest uninterrupted service on a particular commitee the leadership of that commitee
+
+** Section 5:
+*** Personal Staff: work directly for individual senators and represenattives
+*** Commitee Staff: work for the many House and Senate commitees
+*** Administrative Assistant: a very important legislative aide who runs the lawmaker's office, supervises the lawmaker's schedule, and gives advice on political matters
+*** Legislative Assitant: makes certain that the lawmaker is well informed about the many bills which she or he must deal
+*** Caseworkers: handle the many requests for help from people in a lawmaker's state or congressional district
+
+* Chapter 6 Vocab:
+
+** Section 1:
+*** Expressed Powers: legislative powers written in Article 1 section 8. Also called enumerated powers
+*** Neccessary and Proper Clause: clause 18 of section 8 that implies that congress has powers beyond those expressed in the first seventeen clauses. Also called the elastic clause
+*** Implied Powers: Powers implied because the government is a national government
+*** Revenue Bills: laws that raise money which start in the House and then move on to the Senate
+*** Appropriations bills: proposed laws that authorize spending money
+*** Interstate commerce: commerce between the states
+*** Impeachment: a formal accusation of misconduct in the office
+*** Twentieth Amendment: gives congress the power to settle problems arising form the death of elected canidates and from presidental incapacity or resignation
+*** Twenty-Fifth Amendment: if the position of vice president is vacant, the president can appoint a replacement
