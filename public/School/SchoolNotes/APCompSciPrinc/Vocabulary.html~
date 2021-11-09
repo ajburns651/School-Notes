@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Vocabulary</title>
+<meta name="generator" content="Org mode" />
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Vocabulary</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org8bc9c28">Unit 1</a></li>
+<li><a href="#orgaabc898">Unit 2</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org8bc9c28" class="outline-2">
+<h2 id="org8bc9c28">Unit 1</h2>
+<div class="outline-text-2" id="text-org8bc9c28">
+</div>
+<ul class="org-ul">
+<li><a id="orge913f68"></a>Bit: A contraction of "Binary Digit"; the single unit of information in a computer, typically represented as a 0 or 1<br /></li>
+<li><a id="orge436403"></a>Byte: 8 bits: 10010101<br /></li>
+<li><a id="org3c37290"></a>Overflow Error:  Error from attempting to represent a number that is too large<br /></li>
+<li><a id="org01bc87f"></a>Round-off Error:  Error from attempting to represent a number that is too precise. The value is rounded off.<br /></li>
+<li><a id="org5c1a01f"></a>Abstraction: We create simplified representations of something more complex. Representing text is an example of abstraction.<br /></li>
+<li><a id="orga6546c3"></a>Analog Data: Data values that change continuously, or smoothly, over time. Some examples of analog data include music, colors of a painting, or position of a sprinter during a race.<br /></li>
+<li><a id="org97fc33b"></a>Digital Data:  data that changes discreetly through a fine set of possible values.<br /></li>
+<li><a id="orgc37a19c"></a>Sampling:  A process for creating a digital representation of analog data by measuring the analog data at regular intervals called samples<br /></li>
+<li><a id="org8d53b25"></a>Lossless Compression: A process for reducing the number of bits needed to represent something without losing any information. This process is reversible<br /></li>
+<li><a id="orgc9292da"></a>Lossy Compression:  A process for reducing the number of bits needed to represent something in which some information is lost or thrown away. This process is not reversible.<br /></li>
+<li><a id="orge1c0b0f"></a>Creative Commons: a license that allows you to freely use materials created by others<br /></li>
+<li><a id="org375e070"></a>Open Source: programs that are made freely available and may be redistributed and modified<br /></li>
+<li><a id="org6a97c42"></a>Open Access: online research output free of restrictions to access and use<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgaabc898" class="outline-2">
+<h2 id="orgaabc898">Unit 2</h2>
+</div>
+</div>
+</body>
+</html>

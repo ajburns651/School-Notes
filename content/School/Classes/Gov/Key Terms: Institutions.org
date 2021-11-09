@@ -1,0 +1,51 @@
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: num:0 h:1 toc:1
+# num:0 = dont number any, h:2 = headings to level 2, toc:1 = only put a table of contents to level 1
+#+TITLE:     Congress & Institutions
+#+AUTHOR:    Alex Burns
+# EXPORT = C-c C-e h h
+
+# https://github.com/fniessen/refcard-org-mode
+# /Emphasize/ (italics), *strongly* (bold), and */very strongly/* (bold italics), \\ = return
+
+* Key Terms
+
+** Appropriation: money that Congress has allocated to be spent
+** Appropriations Commitee: congressional commitee that deals with federal spending
+** Casework: personal work done by a member of Congress for his constituents
+** Closed rule: Rules Commitee rule that bands amendments to bills
+** Cloture: Senate motion to end a filibuster that requires a 3/5 vote
+** Conference commitee: works out a compromise between differing House-Senate versions of a bill
+** Constituents: the people who are represented by elected officials
+** Discharge petition: a motion to force a bill to the HOuse floor that has been bottled up in commitee
+** Executive agreement: an agreement between the President and another head of state that, unlike a treaty, does not require Senate consent
+** Executive order: presidental rule or regulation that has the force of law
+** Executive privilege: the privilege of a President and his staff to withhold their "privleged" conversations from Congress or the courts
+** Filibuster: nonstop Senate debate that prevents a bill from coming to a vote
+** Finance Commitee: Senate commitee that handles tax bills
+** Franking privilege: allows members of Congress to send mail postage free
+** Gerrymandering: redrawing district lines to favor one party at the expense of the other
+** Hold: Senate maneuver that allows a Senator to stop or delay consideration of a bill or presidental appointment
+** Impeachment: House action that formally charges an offical with wrongdoing. Conviction requires 2/3 vote from the Senate
+** Impoundment: refusal of a President to spend money that has been appropriated by Congress
+** Injunction: court order that forbids a party from performing a certain action
+** Judicial review: power of courts to review the consitutionality of laws or government actions
+** Legislative oversight: ongoing process of congressional monitoring of the executive branch to ensure that hte latter complies with the law
+** Legislative veto: process in which Congress overturned rules and regulations proposed by executive branch agencies. Struck down in 1983
+** Line item veto: power of most governors (and President Clinton for only a few years) to delete or reduce funding in a bill on a line by line basis
+** Logrolling: when two members of Congress agree to vote for each other's bill
+** Mark up: commitee action to amend a proposed bill
+** Open rule: House Rules Commitee rule that allows amendments to a bill
+** Pocket veto: presidental killing of a bill by inaction after Congress adjours (only if congress ends in less than 10 days)
+** Pork barrel: wasteful congressional spending, e. g. funding for a Lawrence Welk museum in North Dakota
+** Quorum: minimum number of members needed for the House or Senate to meet
+** Reapportionment: reallocation of House seats to the states on the basis of changes in state populations, as determined by the census
+** Redistricting: redrawing of congressional district boundaries by the party in power of the senate legislature
+** Rider: amendment to a bill that has little to do with the bill. Also know as a nongermane amendment
+** Rules Commitee: the "traffic cop" of the House that sets the legislative calendar and issues rules for debate on a bill
+** Senatorial courtesy: tradition in which the President consults with the senators within a state in which an appointment is to be made
+** Seniority system: tradition in which the Senator from the majority party with the most years of service on a commitee becomes the chairman of that commitee
+** Spoils system: see patronage above
+** Standing Commitees: the permanent congressional commitees that handle legislation
+** Sunset laws: laws that automatically expire after a given time
+** Ways and Means Commitee: House commitee that handles tax bills

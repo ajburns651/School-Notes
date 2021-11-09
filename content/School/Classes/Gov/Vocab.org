@@ -147,3 +147,98 @@
 *** Impeachment: a formal accusation of misconduct in the office
 *** Twentieth Amendment: gives congress the power to settle problems arising form the death of elected canidates and from presidental incapacity or resignation
 *** Twenty-Fifth Amendment: if the position of vice president is vacant, the president can appoint a replacement
+
+** Section 2:
+*** Subpoena: a legal order that a person appear or produce requested documents. Congress makes great use of this power
+*** Perjury: lying under oath
+*** Contempt: willful obstruction
+*** Immunity: a freedom from prosecution for witnesses whose testimony ties them to illegal acts. Witnesses who are granted immunity, however, can be required to testify about illegal activities in which they are involved. Those who refuse may be held in contempt and jailed
+*** Legislative veto: congress wrote provisions into some laws that allowed it to review and cancel actions of the exectuive agencies that carried out those laws
+
+** Section 3:
+*** National budget: the yearly financial plan for the national government
+*** Impoundment: the presidents refusal to spend money Congress has voted to fund a program
+
+* Chapter 7 Vocab:
+
+** Section 1:
+*** Private Bill: deals with individual people or places
+*** Public Bill: deal with general matters and applys to the entire nation
+*** Simple resolution: covers matters affecting only one house of congress and is passed by that house alone
+*** Rider: a provision on a subject other than the one covered in the bill
+*** Hearing: when a commitee listens to testimony from witnesses who may include experts on the subject of the bill, government officials, or represenatives of interest groups
+*** Veto: a president refuses to sign the bill and returns it to the house of congress in which it originated
+*** Pocket Veto: when a president kills a bill by not acting on it because there are less than ten days left before congress adjourns. This works because the president is given ten days to consider a bill
+
+** Section 2:
+*** Taxes: the money that people and businesses pay to support the government
+*** Closed rule: forbids members to offer any amendments to a bill from the floor
+*** Appropriation: approval of government spending, a congressional responsibility
+*** Authroization: sets up a federal program and specifies how much money may be appropriated for that program
+*** Entitlement: social programs that continue from one year to the next
+
+** Section 3:
+*** Lobbyist: representatives of interest groups who are an important influence on congress
+*** Lobbying: Lobbyist's efforts to persuade officials to support their point of view
+
+** Section 4:
+*** Casework: helping constituents with problems
+*** Pork-barrel legislation: when congress passes laws to appropriate money for federal projects
+*** Logrolling: agreements by two or more lawmakers to support each other's bills
+
+* Chapter 8 Vocab:
+
+** Section 1:
+*** Compensation: salary for working as the president, now 400,000 a year
+*** Presidental Succession: a set of rules to determine who would fill the president's office in case of a vacancy
+
+** Section 2:
+*** Elector: people who would vote in the electoral college
+*** Electroal Vote: A vote that determined who became persident instead of the popular vote
+
+** Section 3:
+*** Cabinet: the 15 secretaries, vice president, and several other top officials
+*** Leak: deliberately disclose some information to the public to test feedback
+
+** Section 4:
+*** Central Clearance: when the OMB reviews all legislative proposals that executive agencies prepare
+*** National Security Adviser: a special assistant for national security affairs who directs the NSC staff
+*** Press Secretary: convinces the public that the presidents decision was correct, he didnt mean it, or informs the public of the presidents views
+
+* Chapter 9 Vocab:
+
+** Section 1:
+*** Mandate: expressed will of the people; strong popular support
+*** Forum: medium for discussion, commonly newspapers or tv for presidental messages
+
+** Section 2:
+*** Executive Order: rules that have the force of law
+*** Impoundment: the president puts aside, or refuses to spend, the money Congress has appropriated for a certain purposes
+*** Reprieve: grants a postponement of punishment
+*** Pardon: a release from legal punishment
+*** Amnesty: a group pardon to people for an offense against the government
+*** Patronage: appointment to political office
+*** Treaties: formal agreements between the governments of two or more countries
+*** Executive Agreements: pacts between the president and the head of a foreign government
+
+** Section 3:
+*** De facto: in effect whether they are supposed to be in charge or not
+*** Covert: secret, not openly acknowledged or displayed
+
+* Chapter 10 Vocab:
+
+** Section 1:
+*** Bureaucrat: the people who work for organizations such as the FBI
+*** Embassy: offices of ambassadors in foreign countries
+*** Government Corportations: businesses the federal government runs
+*** Deregulate: reduce the powers of regulatory agencies
+*** Procurement: purchasing of materials
+
+** Section 2:
+*** Spoils System: the practice of victorious politicians rewarding their followers with government jobs
+*** Civil Service System: the principle and practice of government employment on the basis of open, competitive examinations and merit
+
+** Section 3:
+*** Client Group: the individuals and groups who work with the agency and are most affected by its decisions
+*** Liason Officers: cabinet members who help promote good relations with Congress
+*** Injunction: an order that will stop a particular action or enforce a rule or regulation

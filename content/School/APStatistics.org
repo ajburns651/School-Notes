@@ -1,0 +1,8 @@
+#+title: AP Statistics
+#+INCLUDE: "~/Documents/School-Org-Notes/content/header.org"
+
+* Class Info
+Taught by Crystal Seitz. Students learn about the major concepts and tools used for collecting, analyzing, and drawing conclusions from data. Students will explore statistics through discussion and activities, and will design surveys and experiments. The AP exam is scheduled for the 5th of May, 2022
+
+* Notes
+- [[./Classes/APStats/Vocab.org][Vocab]]

@@ -1,0 +1,9 @@
+#+title: AP Literature
+#+INCLUDE: "~/Documents/School-Org-Notes/content/header.org"
+
+* Class Info
+Taught by Michelle Challis. Students cultivate their understanding of literature through reading and analyzing texts as they explore concepts like character, setting, structure, perspective, figurative language, and literary analysis in the context of literary works. The AP exam is scheduled for May 4th, 2022
+
+* Notes
+- [[./Classes/APLit/Macbeth Questions.org][Macbeth Questions]]
+- [[./Classes/APLit/Poetry Vocabulary.org][Poetry Vocabulary]]

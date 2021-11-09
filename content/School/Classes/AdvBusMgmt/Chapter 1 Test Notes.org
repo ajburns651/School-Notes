@@ -1,0 +1,39 @@
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: num:0 h:1 toc:2
+# num:0 = dont number any, h:2 = headings to level 2, toc:1 = only put a table of contents to level 1
+#+TITLE:     Chapter 1 Test Notes
+#+AUTHOR:    Alex Burns
+# EXPORT = C-c C-e h h
+
+# https://github.com/fniessen/refcard-org-mode
+# /Emphasize/ (italics), *strongly* (bold), and */very strongly/* (bold italics), \\ = return
+* Key Terms
+** Management: the proccess of accomplishing the goals of an organization through the effective use of people and other resources
+** Planning: involves analyzing information and making decisions about what needs to be done
+** Organizing: is concerned with determining how plans can be accomplished most effectively and arranging resources to complete work
+** Staffing: focuses on finidng indiviudlas with the right skills to do the work
+** Leading: requires working with employees to ensure they are motivated and have the resources needed to help carry out plans and get the work done
+** Controlling: involves evaluating results to determine if the company's objectives have been accomplished as planned
+** Manager: completes all five management functions on a regular basis and has authority over jobs and people
+** Supervisor: a manager whose main job is to direct the work of employees. They are the first level of management in a company
+** Executive: a top-level manager who spends almost all of his or her time on managmenet functions and decisions that affect the entire company
+** Middle-Manager: completes all of the management functions, but spends most of the time completing specialized work in one management function or is responsible for a specefic part of the companys operations
+** Industrial Revolution: the era of the 18th and 19th century in which machine power replaced human and animal power in the production process, leading to major business and social changes
+** Management Science: the careful, objective study of management decisions and procedures in order to improve the operation of busineses and organizations
+** Classical Management: studies the way work is organized and the procedures used to complete a job in order to increase worker productivity. Fredrick Taylor
+** Administrative Management: identifies the most effective practices for organizing and managing a business. Henri Fayol
+** Behavioral Management: directed at organizational improvement through understanding employee motivation and behavior. Also called Human relations management. Douglas Mcgregor and Elton Mayo
+** Quality Management: a total commitment by everyone in a organiztion to improve the quality of procedures and products by reducing waste, errors, and defects. Japan hired american engineer W. Edward Deming
+** Business Competition: the rivarly among companies for consumers
+** Management Strategy: a carefully developed overall approach to leading an organization
+*** The business
+*** The work
+*** The management
+*** The Business Enviorment
+** Workforce: becoming more diverse between 2010 and 2050
+** Administrative management characteristics:
+*** Authority and responsibility: managers have the authority to assign tasks and delegate responsibilities
+*** Unity of command: each employee must recieve direction from only one manager to avoid conflicts and help keep a chain of command
+*** Unity of purpose: the goals and direction of an organization must be clear and supported by everyone
+*** Adequte compensation: the wages and benefits for every employee should be fair and satisfactory to both the individual and their organization
+*** Espirit de corps: organizations should work to build good interpersonal relationships, a sense of teamwork and harmony

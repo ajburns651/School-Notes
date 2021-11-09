@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+</head>
+<body>
+<div id="content">
+<div id="outline-container-orgcea763d" class="outline-2">
+<h2 id="orgcea763d">Doom Emacs Config</h2>
+<div class="outline-text-2" id="text-orgcea763d">
+<p>
+An extensible Text Editor distributed by doom with vim like bindings. Hosts my mail client, File Manager, Agenda, and Notes.
+</p>
+</div>
+<div id="outline-container-orgd927ec7" class="outline-3">
+<h3 id="orgd927ec7">Themes</h3>
+<div class="outline-text-3" id="text-orgd927ec7">
+<p>
+Here is where I set my overall Theme as well as override the theme for Treemacs
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(<span style="font-weight: bold;">setq</span> doom-theme 'doom-dracula)               <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Sets Emacs theme to doom-dracula</span>
+(<span style="font-weight: bold;">setq</span> doom-themes-treemacs-theme <span style="font-style: italic;">"Default"</span>)   <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Sets treemacs theme to the Default, otherwise it uses Doom icons</span>
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb007eea" class="outline-3">
+<h3 id="orgb007eea">Basic Settings</h3>
+<div class="outline-text-3" id="text-orgb007eea">
+<p>
+Here is where I set things such as my org-directory, which is symlinked to my Dropbox folder, aswell as line numbers and fonts
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(<span style="font-weight: bold;">setq</span> org-directory <span style="font-style: italic;">"~/.doom.d/org/"</span>)                                  <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Must be set before Org is Loaded</span>
+(<span style="font-weight: bold;">setq</span> display-line-numbers-type t)                                     <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Can be deleted to hide or changed to be relative</span>
+(<span style="font-weight: bold;">setq</span> doom-font (font-spec <span style="font-weight: bold;">:family</span> <span style="font-style: italic;">"UbuntuMono Nerd Font"</span> <span style="font-weight: bold;">:size</span> 25))   <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Sets Emacs wide font, looks best for 4k Monitor</span>
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org96f4723" class="outline-3">
+<h3 id="org96f4723">Keybinds</h3>
+<div class="outline-text-3" id="text-org96f4723">
+<p>
+I set various shortcuts here aswell as keybindings for launching Dired (my file manager)
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(map! <span style="font-style: italic;">"C-S-v"</span> #'clipboard-yank)                     <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Binds C-S-V to paste, Alt+w is copy</span>
+
+(map! <span style="font-weight: bold;">:leader</span>
+      (<span style="font-weight: bold;">:prefix</span> (<span style="font-style: italic;">"o"</span> . <span style="font-style: italic;">"open"</span>)
+       <span style="font-weight: bold;">:desc</span> <span style="font-style: italic;">"Open Bullet Journal"</span> <span style="font-style: italic;">"b"</span> #'isamert/toggle-side-bullet-org-buffer)) <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">binds SPC-o-b to open daily journal</span>
+
+(<span style="font-weight: bold;">defun</span> <span style="font-weight: bold;">dired-switch-to-dir</span> (path)
+  (<span style="font-weight: bold;">interactive</span>)
+  (dired-jump <span style="font-weight: bold;">:FILE-NAME</span> (expand-file-name path)))  <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Function neccessary for shortcuts that jump to a dired directory</span>
+
+(map! <span style="font-weight: bold;">:leader</span>
+      (<span style="font-weight: bold;">:prefix</span> (<span style="font-style: italic;">"d"</span> . <span style="font-style: italic;">"dired"</span>)
+       <span style="font-weight: bold;">:desc</span> <span style="font-style: italic;">"Open dired"</span> <span style="font-style: italic;">"d"</span> #'dired
+       <span style="font-weight: bold;">:desc</span> <span style="font-style: italic;">"Dired jump to current"</span> <span style="font-style: italic;">"j"</span> #'dired-jump
+       <span style="font-weight: bold;">:desc</span> <span style="font-style: italic;">"Open $HOME in dired"</span> <span style="font-style: italic;">"h"</span> (<span style="font-weight: bold;">lambda</span> () (<span style="font-weight: bold;">interactive</span>) (dired-switch-to-dir <span style="font-style: italic;">"/home/keb/"</span>))
+       <span style="font-weight: bold;">:desc</span> <span style="font-style: italic;">"Open root in dired"</span>  <span style="font-style: italic;">"r"</span> (<span style="font-weight: bold;">lambda</span> () (<span style="font-weight: bold;">interactive</span>) (dired-switch-to-dir <span style="font-style: italic;">"/"</span>)))
+      (<span style="font-weight: bold;">:after</span> dired
+       (<span style="font-weight: bold;">:map</span> dired-mode-map
+        <span style="font-weight: bold;">:desc</span> <span style="font-style: italic;">"Peep-dired image previews"</span> <span style="font-style: italic;">"d p"</span> #'peep-dired
+        <span style="font-weight: bold;">:desc</span> <span style="font-style: italic;">"Create new file"</span> <span style="font-style: italic;">"d c"</span> #'find-file
+        <span style="font-weight: bold;">:desc</span> <span style="font-style: italic;">"Dired view file"</span> <span style="font-style: italic;">"d v"</span> #'dired-view-file)))
+
+(evil-define-key 'normal dired-mode-map      <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Make h and l go back and forward in dired</span>
+  (kbd <span style="font-style: italic;">"h"</span>) 'dired-up-directory
+  (kbd <span style="font-style: italic;">"l"</span>) 'dired-open-file
+  (kbd <span style="font-style: italic;">"&lt;left&gt;"</span>) 'dired-up-directory
+  (kbd <span style="font-style: italic;">"&lt;right&gt;"</span>) 'dired-open-file)
+
+(evil-define-key 'normal peep-dired-mode-map <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Make h and l go back and forward in dired when viewing images</span>
+  (kbd <span style="font-style: italic;">"j"</span>) 'peep-dired-next-file
+  (kbd <span style="font-style: italic;">"k"</span>) 'peep-dired-prev-file
+  (kbd <span style="font-style: italic;">"&lt;up&gt;"</span>) 'peep-dired-prev-file
+  (kbd <span style="font-style: italic;">"&lt;down&gt;"</span>) 'peep-dired-next-file)
+(add-hook 'peep-dired-hook 'evil-normalize-keymaps)
+
+(map! <span style="font-weight: bold;">:leader</span>                                <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Clones current buffer into other window</span>
+      <span style="font-weight: bold;">:desc</span> <span style="font-style: italic;">"Clone indirect buffer other window"</span> <span style="font-style: italic;">"b c"</span> #'clone-indirect-buffer-other-window)
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0eff9cd" class="outline-3">
+<h3 id="org0eff9cd">Dired</h3>
+<div class="outline-text-3" id="text-org0eff9cd">
+<p>
+Here are custom settings for dired. Right now this only includes what program is used to launch files with certain extensions
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(<span style="font-weight: bold;">setq</span> dired-open-extensions '((<span style="font-style: italic;">"gif"</span> . <span style="font-style: italic;">"feh"</span>)
+                              (<span style="font-style: italic;">"jpg"</span> . <span style="font-style: italic;">"feh"</span>)
+                              (<span style="font-style: italic;">"png"</span> . <span style="font-style: italic;">"feh"</span>)
+                              (<span style="font-style: italic;">"pdf"</span> . <span style="font-style: italic;">"brave"</span>)
+                              (<span style="font-style: italic;">"mkv"</span> . <span style="font-style: italic;">"mpv"</span>)
+                              (<span style="font-style: italic;">"docx"</span> . <span style="font-style: italic;">"brave"</span>)
+                              (<span style="font-style: italic;">"mp4"</span> . <span style="font-style: italic;">"mpv"</span>)))
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd6e91c1" class="outline-3">
+<h3 id="orgd6e91c1">Mu4e</h3>
+<div class="outline-text-3" id="text-orgd6e91c1">
+<p>
+These are the settings for my email client. Currently the mu4e-get-mail-command does not work and needs to be manually set
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(<span style="font-weight: bold;">setq</span> user-mail-address <span style="font-style: italic;">"ajburns651@gmail.com"</span>
+      user-full-name  <span style="font-style: italic;">"Alex Burns"</span>
+      mu4e-get-mail-command <span style="font-style: italic;">"mbsync -c ~/.config/mu4e/mbsyncrc -a"</span>
+      mu4e-update-interval  300
+      mu4e-main-buffer-hide-personal-addresses t
+      message-send-mail-function 'smtpmail-send-it
+      starttls-use-gnutls t
+      smtpmail-starttls-credentials '((<span style="font-style: italic;">"smtp.gmail.com"</span> 587 nil nil))
+      mu4e-sent-folder <span style="font-style: italic;">"/gmail/Sent"</span>
+      mu4e-drafts-folder <span style="font-style: italic;">"/gmail/Drafts"</span>
+      mu4e-trash-folder <span style="font-style: italic;">"/gmail/Trash"</span>
+      mu4e-maildir-shortcuts
+      '((<span style="font-style: italic;">"/gmail/Inbox"</span>      . ?i)
+        (<span style="font-style: italic;">"/gmail/Sent Items"</span> . ?s)
+        (<span style="font-style: italic;">"/gmail/Drafts"</span>     . ?d)
+        (<span style="font-style: italic;">"/gmail/Trash"</span>      . ?t)))
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org49157b7" class="outline-3">
+<h3 id="org49157b7">Emacs Specefic Settings</h3>
+<div class="outline-text-3" id="text-org49157b7">
+<p>
+A lumpsome of random settings that make me more comfortable using Emacs
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(<span style="font-weight: bold;">defun</span> <span style="font-weight: bold;">prefer-horizontal-split</span> () <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Prefers Vertical split when creating new window</span>
+  (set-variable 'split-height-threshold nil t)
+  (set-variable 'split-width-threshold 40 t))
+(add-hook 'markdown-mode-hook 'prefer-horizontal-split)
+
+(<span style="font-weight: bold;">setq</span> load-prefer-newer t)        <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Removes the error when using old doom things with a newer emacs</span>
+(<span style="font-weight: bold;">setq</span> delete-selection-mode t)    <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Overwrites Selected Text when I am in insert mode</span>
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga2ea6c3" class="outline-3">
+<h3 id="orga2ea6c3">Org Mode Settings</h3>
+<div class="outline-text-3" id="text-orga2ea6c3">
+<p>
+This is the majority of my config. This hosts settings for regular org mode as well as the Agenda View
+</p>
+</div>
+
+<div id="outline-container-org0f94527" class="outline-4">
+<h4 id="org0f94527">General</h4>
+<div class="outline-text-4" id="text-org0f94527">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(after! org
+  (add-hook 'org-mode-hook (<span style="font-weight: bold;">lambda</span> () (org-bullets-mode 1)))) <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Makes the org-bullets look nice instead of astricts</span>
+
+(add-hook 'org-mode-hook 'org-fragtog-mode) <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Needed for org-fratog (Pretty equations inline, LaTeX)</span>
+(<span style="font-weight: bold;">setq</span> org-latex-create-formula-image-program 'dvisvgm)
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga5ff2cc" class="outline-4">
+<h4 id="orga5ff2cc">Agenda</h4>
+<div class="outline-text-4" id="text-orga5ff2cc">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(use-package org-agenda
+  <span style="font-weight: bold;">:after</span> org
+  <span style="font-weight: bold;">:custom</span>
+  (org-agenda-prefix-format '((agenda . <span style="font-style: italic;">" %i %-20:c%?-12t%-6e% s"</span>)
+                (todo   . <span style="font-style: italic;">" %i %-20:c %-6e"</span>)
+                (tags   . <span style="font-style: italic;">" %i %-20:c"</span>)
+                (search . <span style="font-style: italic;">" %i %-20:c"</span>))))
+
+(<span style="font-weight: bold;">setq</span> org-agenda-custom-commands
+'((<span style="font-style: italic;">"d"</span> <span style="font-style: italic;">"Today's Tasks"</span>
+   ((tags-todo
+     <span style="font-style: italic;">"PRIORITY=\"A\""</span>
+     ((org-agenda-files '(<span style="font-style: italic;">"~/.doom.d/org/goals.org"</span>))
+      (org-agenda-overriding-header <span style="font-style: italic;">"Primary goals this month"</span>)))
+    (tags-todo
+     <span style="font-style: italic;">"PRIORITY=\"C\""</span>
+     ((org-agenda-files '(<span style="font-style: italic;">"~/.doom.d/org/goals.org"</span>))
+      (org-agenda-overriding-header <span style="font-style: italic;">"Secondary goals this month"</span>)))
+        (tags-todo
+         <span style="font-style: italic;">"-{.*}"</span>
+         ((org-agenda-files '(<span style="font-style: italic;">"~/Dropbox/Org/Inbox.org"</span>))
+          (org-agenda-overriding-header <span style="font-style: italic;">"Items From Phone"</span>)))
+        (agenda <span style="font-style: italic;">""</span> ((org-agenda-span 1)
+                    (org-agenda-overriding-header <span style="font-style: italic;">"Today"</span>)))))
+
+  (<span style="font-style: italic;">"w"</span> <span style="font-style: italic;">"This Week's Tasks"</span>
+   ((tags-todo
+     <span style="font-style: italic;">"PRIORITY=\"A\""</span>
+     ((org-agenda-files '(<span style="font-style: italic;">"~/.doom.d/org/goals.org"</span>))
+      (org-agenda-overriding-header <span style="font-style: italic;">"Primary goals this month"</span>)))
+    (tags-todo
+     <span style="font-style: italic;">"PRIORITY=\"C\""</span>
+     ((org-agenda-files '(<span style="font-style: italic;">"~/.doom.d/org/goals.org"</span>))
+      (org-agenda-overriding-header <span style="font-style: italic;">"Secondary goals this month"</span>)))
+    (tags-todo
+     <span style="font-style: italic;">"-{.*}"</span>
+     ((org-agenda-files '(<span style="font-style: italic;">"~/Dropbox/Org/Inbox.org"</span>))
+      (org-agenda-overriding-header <span style="font-style: italic;">"Items From Phone"</span>)))
+    (agenda)))))
+
+(use-package! org-super-agenda        <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Sets the Date for Org-Agenda</span>
+    <span style="font-weight: bold;">:config</span>
+    (<span style="font-weight: bold;">setq</span> org-agenda-start-day nil))  <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">today</span>
+
+(<span style="font-weight: bold;">setq</span> org-agenda-files (directory-files-recursively <span style="font-style: italic;">"~/Dropbox/Org/"</span> <span style="font-style: italic;">"\\.org$"</span>)) <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Adds All org files from Dropbox to Agenda</span>
+(<span style="font-weight: bold;">setq</span> org-agenda-files (remove <span style="font-style: italic;">"~/Dropbox/Org/Projects/Work/Hours.org"</span> org-agenda-files))  <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Removes WorkHours from Agenda View</span>
+
+(<span style="font-weight: bold;">defun</span> <span style="font-weight: bold;">org-agenda-auto-refresh-agenda-buffer</span> () <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Auto updates Agenda Buffer if a new file is synced from phone</span>
+  (<span style="font-weight: bold;">when</span> (org-agenda-file-p)
+    (<span style="font-weight: bold;">when-let</span> ((buffer (get-buffer org-agenda-buffer-name)))
+      (<span style="font-weight: bold;">with-current-buffer</span> buffer
+        (org-agenda-redo-all)))))
+(add-hook 'after-revert-hook #'org-agenda-auto-refresh-agenda-buffer)
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf02a84a" class="outline-4">
+<h4 id="orgf02a84a">Keywords</h4>
+<div class="outline-text-4" id="text-orgf02a84a">
+<p>
+These are the done states that I use. Anything after the | are done states, anything before are TODO states
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(after! org
+        (<span style="font-weight: bold;">setq</span> org-todo-keywords        <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">This overwrites the default Doom org-todo-keywords</span>
+          '((sequence
+             <span style="font-style: italic;">"TODO(t)"</span>                 <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">A task that is ready to be tackled</span>
+             <span style="font-style: italic;">"PROG(p)"</span>                 <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Something That is in progress</span>
+             <span style="font-style: italic;">"BLOCKED(b)"</span>              <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Things That are not my choice to wait on</span>
+             <span style="font-style: italic;">"WAITING(w)"</span>              <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Things Im Waiting on</span>
+             <span style="font-style: italic;">"|"</span>                       <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Separeates done tasks from not done ones</span>
+             <span style="font-style: italic;">"DONE(d)"</span>                 <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Task has been completed</span>
+             <span style="font-style: italic;">"CANCELLED(c)"</span> )))        <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Task has been cancelled</span>
+        (<span style="font-weight: bold;">setq</span> org-todo-keyword-faces
+                '((<span style="font-style: italic;">"TODO"</span>)
+                  (<span style="font-style: italic;">"PROG"</span> . <span style="font-style: italic;">"yellow"</span>)
+                  (<span style="font-style: italic;">"CANCELLED"</span> . <span style="font-style: italic;">"red"</span>)
+                  (<span style="font-style: italic;">"WAITING"</span> . <span style="font-style: italic;">"white"</span>)
+                  (<span style="font-style: italic;">"DONE"</span> . <span style="font-style: italic;">"green"</span>)
+                  (<span style="font-style: italic;">"BLOCKED"</span> .  <span style="font-style: italic;">"lightblue"</span>)))
+        (<span style="font-weight: bold;">setq</span> org-log-done 'time))     <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Adds a closed timestamp when marking tasks as done</span>
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org1ba795b" class="outline-4">
+<h4 id="org1ba795b">Org-Journal</h4>
+</div>
+<div id="outline-container-orgdef109f" class="outline-4">
+<h4 id="orgdef109f">Org-Roam</h4>
+<div class="outline-text-4" id="text-orgdef109f">
+<p>
+Here is my roam configuration
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(use-package org-roam
+      <span style="font-weight: bold;">:ensure</span> t
+      <span style="font-weight: bold;">:hook</span>
+      (after-init . org-roam-mode)
+      <span style="font-weight: bold;">:custom</span>
+      (org-roam-directory (file-truename <span style="font-style: italic;">"~/Dropbox/Org"</span>))
+      <span style="font-weight: bold;">:bind</span> (<span style="font-weight: bold;">:map</span> org-roam-mode-map
+              ((<span style="font-style: italic;">"C-c n l"</span> . org-roam)
+               (<span style="font-style: italic;">"C-c n f"</span> . org-roam-find-file)
+               (<span style="font-style: italic;">"C-c n g"</span> . org-roam-graph))
+              <span style="font-weight: bold;">:map</span> org-mode-map
+              ((<span style="font-style: italic;">"C-c n i"</span> . org-roam-insert))
+              ((<span style="font-style: italic;">"C-c n I"</span> . org-roam-insert-immediate))))
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgdda6d9b" class="outline-3">
+<h3 id="orgdda6d9b">Treemacs</h3>
+<div class="outline-text-3" id="text-orgdda6d9b">
+<p>
+Here I set the inital view for treemacs and other settings. Note, the treemacs-persist file is hardcoded and only has read permissions to not be overwritten
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(<span style="font-weight: bold;">setq</span> treemacs-persist-file <span style="font-style: italic;">"~/.doom.d/treemacs-persist"</span>)
+(use-package treemacs
+  <span style="font-weight: bold;">:ensure</span> t
+  <span style="font-weight: bold;">:defer</span> t
+  <span style="font-weight: bold;">:init</span>
+  (<span style="font-weight: bold;">with-eval-after-load</span> 'winum
+    (define-key winum-keymap (kbd <span style="font-style: italic;">"M-0"</span>) #'treemacs-select-window))
+  <span style="font-weight: bold;">:config</span>
+  (<span style="font-weight: bold;">progn</span>
+    (treemacs-follow-mode t)))
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgac08151" class="outline-3">
+<h3 id="orgac08151">Daily Journaling</h3>
+<div class="outline-text-3" id="text-orgac08151">
+<p>
+Here are the settings and configs for my daily journal
+</p>
+</div>
+
+<div id="outline-container-orgd7acdb8" class="outline-4">
+<h4 id="orgd7acdb8">Function that toggles bullet journal</h4>
+<div class="outline-text-4" id="text-orgd7acdb8">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(<span style="font-weight: bold;">defun</span> <span style="font-weight: bold;">isamert/toggle-side-bullet-org-buffer</span> () <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Function that toggles journal</span>
+  <span style="font-style: italic;">"Toggle `bullet.org` in a side buffer for quick note taking.  The buffer is opened in side window so it can't be accidentaly removed."</span>
+  (<span style="font-weight: bold;">interactive</span>)
+  (isamert/toggle-side-buffer-with-file <span style="font-style: italic;">"~/Dropbox/Org/bullet.org"</span>))
+
+(<span style="font-weight: bold;">defun</span> <span style="font-weight: bold;">isamert/buffer-visible-p</span> (buffer)
+ <span style="font-style: italic;">"Check if given BUFFER is visible or not.  BUFFER is a string representing the buffer name."</span>
+  (<span style="font-weight: bold;">or</span> (eq buffer (window-buffer (selected-window))) (get-buffer-window buffer)))
+
+(<span style="font-weight: bold;">defun</span> <span style="font-weight: bold;">isamert/display-buffer-in-side-window</span> (buffer)
+  <span style="font-style: italic;">"Just like `</span><span style="font-weight: bold; font-style: italic; text-decoration: underline;">display-buffer-in-side-window</span><span style="font-style: italic;">' but only takes a BUFFER and rest of the parameters are for my taste."</span>
+  (select-window
+   (display-buffer-in-side-window
+    buffer
+    (list (cons 'side 'right)
+          (cons 'slot 0)
+          (cons 'window-width 84)
+          (cons 'window-parameters (list (cons 'no-delete-other-windows t)
+                                         (cons 'no-other-window nil)))))))
+
+(<span style="font-weight: bold;">defun</span> <span style="font-weight: bold;">isamert/remove-window-with-buffer</span> (the-buffer-name)
+  <span style="font-style: italic;">"Remove window containing given THE-BUFFER-NAME."</span>
+  (mapc (<span style="font-weight: bold;">lambda</span> (window)
+          (<span style="font-weight: bold;">when</span> (string-equal (buffer-name (window-buffer window)) the-buffer-name)
+            (delete-window window)))
+        (window-list (selected-frame))))
+
+(<span style="font-weight: bold;">defun</span> <span style="font-weight: bold;">isamert/toggle-side-buffer-with-file</span> (file-path)
+  <span style="font-style: italic;">"Toggle FILE-PATH in a side buffer. The buffer is opened in side window so it can't be accidentaly removed."</span>
+  (<span style="font-weight: bold;">interactive</span>)
+  (<span style="font-weight: bold;">let</span> ((fname (file-name-nondirectory file-path)))
+  (<span style="font-weight: bold;">if</span> (isamert/buffer-visible-p fname)
+      (isamert/remove-window-with-buffer fname)
+    (isamert/display-buffer-in-side-window
+     (<span style="font-weight: bold;">save-window-excursion</span>
+       (find-file file-path)
+       (current-buffer))))))
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org314fc03" class="outline-3">
+<h3 id="org314fc03">AutoStart</h3>
+<div class="outline-text-3" id="text-org314fc03">
+<p>
+Here I set the default view for when emacs launches
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp"><span style="font-weight: bold; font-style: italic;">;</span><span style="font-weight: bold; font-style: italic;">(add-hook 'emacs-startup-hook 'treemacs)                     ; Auto open treemacs on launch</span>
+(add-hook 'after-init-hook (<span style="font-weight: bold;">lambda</span> () (org-agenda nil <span style="font-style: italic;">"w"</span>))) <span style="font-weight: bold; font-style: italic;">; </span><span style="font-weight: bold; font-style: italic;">Auto open agenda to weekly view</span>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

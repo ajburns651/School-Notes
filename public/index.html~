@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title><img src="./School/Pictures/notebook.gif" alt="notebook.gif" /> School Notes <img src="./School/Pictures/LCCLOGO.png" alt="LCCLOGO.png" /></title>
+<meta name="generator" content="Org mode" />
+<meta name="description" content="Header"
+ />
+<link rel="stylesheet" href="https://gongzhitaao.org/orgcss/org.css" />
+</head>
+<body>
+<div id="content">
+<h1 class="title"><img src="./School/Pictures/notebook.gif" alt="notebook.gif" /> School Notes <img src="./School/Pictures/LCCLOGO.png" alt="LCCLOGO.png" /></h1>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><a href="./index.html">Home</a></td>
+<td class="org-left"><a href="./School/AdvancedBusinessManagement.html">AdvBusMgmt</a></td>
+<td class="org-left"><a href="./School/APComputerScience.html">APCompSci</a></td>
+<td class="org-left"><a href="./School/Calculus3.html">Calc3</a></td>
+<td class="org-left"><a href="./School/APStatistics.html">APStats</a></td>
+<td class="org-left"><a href="./School/History.html">Gov/Econ</a></td>
+<td class="org-left"><a href="./School/Literature.html">APLit</a></td>
+</tr>
+</tbody>
+</table>
+
+<div id="outline-container-org3378b1f" class="outline-2">
+<h2 id="org3378b1f">Overview</h2>
+<div class="outline-text-2" id="text-org3378b1f">
+<p>
+This is where I host all of my notes for school. I started this project in my last few months of my junior year and am continuing it through college. The website is built using EMACS org-mode, and org-publish. All of the code is available on my <a href="https://gitlab.com/ajburns651/dotfiles">Gitlab</a> &amp; <a href="https://github.com/ajburns651/School-Notes">GitHub</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbc8fb06" class="outline-2">
+<h2 id="orgbc8fb06">About Me</h2>
+<div class="outline-text-2" id="text-orgbc8fb06">
+<p>
+I am currently a senior in highschool at La Costa Canyon. I started this project to benefit my peers learning during the covid pandemic. I realized that due to the online format, many students were struggiling to write down notes, and it was hard to recoup information that was missed if the student was absent. I spent a few weeks creating the original version of this website, which has evolved overtime to what it is now. In the future I hope to expand my platform to allow other students to contribute their own notes.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1e9e766" class="outline-2">
+<h2 id="org1e9e766">Planned Website Upgrades</h2>
+<div class="outline-text-2" id="text-org1e9e766">
+<ul class="org-ul">
+<li><del>Convert to new format, rescript everything</del></li>
+<li><del>Add ability to use spaces in note names</del></li>
+<li>Upgrade CSS template to allow easier navigation on smartphones</li>
+<li>Add Pictures to the website</li>
+<li>Add Class Descriptions and ensure each class has at least one notes page</li>
+<li>Create easier note posting</li>
+<li>Access from anywhere
+<ul class="org-ul">
+<li>Maybe using something like dynalist or markdown and then converting?</li>
+</ul></li>
+<li>Allow others to add their own notes via ticket or multipoint platform</li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>
