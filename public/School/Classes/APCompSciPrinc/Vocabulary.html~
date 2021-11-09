@@ -21,60 +21,60 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org7d2fb5d">Unit 1</a></li>
-<li><a href="#org9d171f4">Unit 2</a></li>
+<li><a href="#org0f26dbf">Unit 1</a></li>
+<li><a href="#org3ab5e88">Unit 2</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org7d2fb5d" class="outline-2">
-<h2 id="org7d2fb5d">Unit 1</h2>
-<div class="outline-text-2" id="text-org7d2fb5d">
+<div id="outline-container-org0f26dbf" class="outline-2">
+<h2 id="org0f26dbf">Unit 1</h2>
+<div class="outline-text-2" id="text-org0f26dbf">
 </div>
 <ul class="org-ul">
-<li><a id="orgabfc810"></a>Bit: A contraction of "Binary Digit"; the single unit of information in a computer, typically represented as a 0 or 1<br /></li>
-<li><a id="org0d044f9"></a>Byte: 8 bits: 10010101<br /></li>
-<li><a id="orgb914415"></a>Overflow Error:  Error from attempting to represent a number that is too large<br /></li>
-<li><a id="org4eb65fb"></a>Round-off Error:  Error from attempting to represent a number that is too precise. The value is rounded off.<br /></li>
-<li><a id="org3cda186"></a>Abstraction: We create simplified representations of something more complex. Representing text is an example of abstraction.<br /></li>
-<li><a id="orgb276287"></a>Analog Data: Data values that change continuously, or smoothly, over time. Some examples of analog data include music, colors of a painting, or position of a sprinter during a race.<br /></li>
-<li><a id="org94d4349"></a>Digital Data:  data that changes discreetly through a fine set of possible values.<br /></li>
-<li><a id="orgc4616bc"></a>Sampling:  A process for creating a digital representation of analog data by measuring the analog data at regular intervals called samples<br /></li>
-<li><a id="org2416163"></a>Lossless Compression: A process for reducing the number of bits needed to represent something without losing any information. This process is reversible<br /></li>
-<li><a id="orgcfa55d6"></a>Lossy Compression:  A process for reducing the number of bits needed to represent something in which some information is lost or thrown away. This process is not reversible.<br /></li>
-<li><a id="org5f8998e"></a>Creative Commons: a license that allows you to freely use materials created by others<br /></li>
-<li><a id="orgf50992c"></a>Open Source: programs that are made freely available and may be redistributed and modified<br /></li>
-<li><a id="org065d0d9"></a>Open Access: online research output free of restrictions to access and use<br /></li>
+<li><a id="org145cd3d"></a>Bit: A contraction of "Binary Digit"; the single unit of information in a computer, typically represented as a 0 or 1<br /></li>
+<li><a id="org9edd0f6"></a>Byte: 8 bits: 10010101<br /></li>
+<li><a id="org229bb84"></a>Overflow Error:  Error from attempting to represent a number that is too large<br /></li>
+<li><a id="orgc9a42a5"></a>Round-off Error:  Error from attempting to represent a number that is too precise. The value is rounded off.<br /></li>
+<li><a id="org9804f68"></a>Abstraction: We create simplified representations of something more complex. Representing text is an example of abstraction.<br /></li>
+<li><a id="orgc1e2128"></a>Analog Data: Data values that change continuously, or smoothly, over time. Some examples of analog data include music, colors of a painting, or position of a sprinter during a race.<br /></li>
+<li><a id="org6f2c9b9"></a>Digital Data:  data that changes discreetly through a fine set of possible values.<br /></li>
+<li><a id="orgd9cb690"></a>Sampling:  A process for creating a digital representation of analog data by measuring the analog data at regular intervals called samples<br /></li>
+<li><a id="org9763798"></a>Lossless Compression: A process for reducing the number of bits needed to represent something without losing any information. This process is reversible<br /></li>
+<li><a id="org5ae24dc"></a>Lossy Compression:  A process for reducing the number of bits needed to represent something in which some information is lost or thrown away. This process is not reversible.<br /></li>
+<li><a id="org3984c55"></a>Creative Commons: a license that allows you to freely use materials created by others<br /></li>
+<li><a id="orgfc22e34"></a>Open Source: programs that are made freely available and may be redistributed and modified<br /></li>
+<li><a id="orgb9687cf"></a>Open Access: online research output free of restrictions to access and use<br /></li>
 </ul>
 </div>
 
-<div id="outline-container-org9d171f4" class="outline-2">
-<h2 id="org9d171f4">Unit 2</h2>
-<div class="outline-text-2" id="text-org9d171f4">
+<div id="outline-container-org3ab5e88" class="outline-2">
+<h2 id="org3ab5e88">Unit 2</h2>
+<div class="outline-text-2" id="text-org3ab5e88">
 </div>
 <ul class="org-ul">
-<li><a id="orgd0b86dc"></a>Net Neutrality: Internet service providers should enable access to all content and applications regardless of source, and without favoring or blocking particular products or websites<br /></li>
-<li><a id="orgfd6a24b"></a>Internet Censorship: the attempt to control or suppress of what can be accessed, published, or viewed on the internet by certain people. This can be used to protect people (such as children) but can also be used to limit free speech<br /></li>
-<li><a id="orgadf21a8"></a>Computing Device: a machine that can run a program, including computers, tablets, servers, routers, and smart sensors<br /></li>
-<li><a id="org360b21d"></a>Computing System: a group of computing devices and programs working together for a common purpose<br /></li>
-<li><a id="orgecd5745"></a>Computing Network: a group of interconnected computing devices capable of sending or receiving data<br /></li>
-<li><a id="org4bd59d7"></a>Path: The series of connections between computing devices on a network starting with a sender and ending with a receiver<br /></li>
-<li><a id="orge7356ab"></a>Bandwidth: the maximum amount of data that can be sent in a fixed amount of time, usually measured in bits per second<br /></li>
-<li><a id="org2be8e58"></a>Protocol: An agreed-upon set of rules that specify the behavior of some system<br /></li>
-<li><a id="org40665a8"></a>IP Address: The unique number assigned to each device on the internet<br /></li>
-<li><a id="orgbafb657"></a>Internet Protocol (IP): a protocol for sending data across the internet that assigns unique numbers (IP addresses) to each connected device<br /></li>
-<li><a id="orgfa453c1"></a>Router: A type of computer that forwards data across a network<br /></li>
-<li><a id="orgac65821"></a>Redundancy: the inclusion of extra components so that a system can continue to work even if individual components fail, for example by having more than one path between any two connected devices in a network<br /></li>
-<li><a id="org44dd97c"></a>Fault Tolerant: Can continue to function even in the event of individual component failures. This is important because elements of complex systems like a computer network fail at unexpected times, often in groups<br /></li>
-<li><a id="org7cb35ed"></a>DataStream: information passed through the internet as packets<br /></li>
-<li><a id="org11bd83c"></a>Packet: A chunk of data sent over a network. Larger messages are divided into packets that may arrive at the destination in order, out of order, or not at all<br /></li>
-<li><a id="org2193bd3"></a>Packet Metadata: Data added to packets to help route them through the network and reassemble the original message<br /></li>
-<li><a id="org1220a5e"></a>Transmission Control Protocol (TCP): a protocol for sending packets that does error-checking to ensure all packets are received and properly ordered<br /></li>
-<li><a id="org772fd9f"></a>User Datagram Protocol (UDP): a protocol for sending packets quickly with minimal error-checking and no resending of dropped packets<br /></li>
-<li><a id="orgdce388b"></a>Scalability: the capacity for the system to change in size and scale to meet new demands<br /></li>
-<li><a id="orgf748110"></a>Domain Name System (DNS): the system responsible for translating domain names like example.com into IP addresses<br /></li>
-<li><a id="org557eade"></a>World Wide Web: a system of linked pages, programs, and files<br /></li>
-<li><a id="orgb9aa787"></a>Hypertext Transfer Protocol (HTTP): a protocol for computers to request and share the pages that make up the world wide web on the internet<br /></li>
+<li><a id="orgdb1a7b8"></a>Net Neutrality: Internet service providers should enable access to all content and applications regardless of source, and without favoring or blocking particular products or websites<br /></li>
+<li><a id="org191bcee"></a>Internet Censorship: the attempt to control or suppress of what can be accessed, published, or viewed on the internet by certain people. This can be used to protect people (such as children) but can also be used to limit free speech<br /></li>
+<li><a id="orgaf9845d"></a>Computing Device: a machine that can run a program, including computers, tablets, servers, routers, and smart sensors<br /></li>
+<li><a id="org16ad6d9"></a>Computing System: a group of computing devices and programs working together for a common purpose<br /></li>
+<li><a id="org25620b9"></a>Computing Network: a group of interconnected computing devices capable of sending or receiving data<br /></li>
+<li><a id="org80adaac"></a>Path: The series of connections between computing devices on a network starting with a sender and ending with a receiver<br /></li>
+<li><a id="orgd769c70"></a>Bandwidth: the maximum amount of data that can be sent in a fixed amount of time, usually measured in bits per second<br /></li>
+<li><a id="org8157b8a"></a>Protocol: An agreed-upon set of rules that specify the behavior of some system<br /></li>
+<li><a id="org19078f7"></a>IP Address: The unique number assigned to each device on the internet<br /></li>
+<li><a id="org90172b3"></a>Internet Protocol (IP): a protocol for sending data across the internet that assigns unique numbers (IP addresses) to each connected device<br /></li>
+<li><a id="org8d002da"></a>Router: A type of computer that forwards data across a network<br /></li>
+<li><a id="orgd1411bc"></a>Redundancy: the inclusion of extra components so that a system can continue to work even if individual components fail, for example by having more than one path between any two connected devices in a network<br /></li>
+<li><a id="org3c5a4d4"></a>Fault Tolerant: Can continue to function even in the event of individual component failures. This is important because elements of complex systems like a computer network fail at unexpected times, often in groups<br /></li>
+<li><a id="orga4d180d"></a>DataStream: information passed through the internet as packets<br /></li>
+<li><a id="org5e43375"></a>Packet: A chunk of data sent over a network. Larger messages are divided into packets that may arrive at the destination in order, out of order, or not at all<br /></li>
+<li><a id="orgb715db3"></a>Packet Metadata: Data added to packets to help route them through the network and reassemble the original message<br /></li>
+<li><a id="org16c70a7"></a>Transmission Control Protocol (TCP): a protocol for sending packets that does error-checking to ensure all packets are received and properly ordered<br /></li>
+<li><a id="org7c3e553"></a>User Datagram Protocol (UDP): a protocol for sending packets quickly with minimal error-checking and no resending of dropped packets<br /></li>
+<li><a id="org1bafe6b"></a>Scalability: the capacity for the system to change in size and scale to meet new demands<br /></li>
+<li><a id="org7a09ff9"></a>Domain Name System (DNS): the system responsible for translating domain names like example.com into IP addresses<br /></li>
+<li><a id="org38dc0c6"></a>World Wide Web: a system of linked pages, programs, and files<br /></li>
+<li><a id="orgfae3a72"></a>Hypertext Transfer Protocol (HTTP): a protocol for computers to request and share the pages that make up the world wide web on the internet<br /></li>
 </ul>
 </div>
 </div>
