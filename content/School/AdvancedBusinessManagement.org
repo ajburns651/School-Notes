@@ -5,3 +5,4 @@
 Taught by Dwayne Buth. This course digs into effective management practices that make businesses succsessful. Students learn how forms of management change over time and will be prepared to take on relating future challenges. Students are tought through hands-on projects, speakers from the community, case studies, and other items.
 
 * Notes
+- [[./Classes/AdvBusMgmt/Chapter 1 Test Notes.org][Chapter 1 Test Notes]]
