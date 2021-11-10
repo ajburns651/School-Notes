@@ -11,7 +11,7 @@ homepage=(AdvancedBusinessManagement.org)
 # Create Links to Note Files for Homepages
 for ((i = 0; i < ${#class[@]}; i++)); do
 
-printf "%b\n" $(git ls-tree -r main --name-only | grep org | grep ${class[$i]}) > list.txt
+printf "%b\n" "$(git ls-tree -r main --name-only | grep org | grep ${class[$i]})" > list.txt
 sed 's/^/\//' list.txt > withslash.txt
 sed 's/^/- [[./' withslash.txt > beginningdone.txt
 sed -i 's/$/][&/' beginningdone.txt #Adds end of link brackets and adds beginning of description
