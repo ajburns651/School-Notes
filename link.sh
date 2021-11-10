@@ -20,6 +20,5 @@ sed 's/$/]]&/' withoutending.txt > final.txt #Adds the end of the link
 sed -i '/* Notes/,+100 d' ./"${homepage[$i]}"
 echo "* Notes" >> ./"${homepage[$i]}"
 cat final.txt >> ./"${homepage[$i]}" #Pastes the names after the start of the description from line 7
-rm -rf list.txt withslash.txt beginningdone.txt filenameonly.txt withoutending.txt final.txt
 
 done
