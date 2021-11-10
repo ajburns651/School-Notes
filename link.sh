@@ -3,8 +3,10 @@
 cd /home/keb/Documents/School-Org-Notes/content/School/
 
 # Define classes as a list of variables
-class=(AdvBusMgmt APCompSciPrinc Calc3 APStats Gov APLit)
-homepage=(AdvancedBusinessManagement.org APComputerScience.org Calculus3.org APStatistics.org History.org Literature.org)
+#class=(AdvBusMgmt APCompSciPrinc Calc3 APStats Gov APLit)
+#homepage=(AdvancedBusinessManagement.org APComputerScience.org Calculus3.org APStatistics.org History.org Literature.org)
+class=(AdvBusMgmt)
+homepage=(AdvancedBusinessManagement.org)
 
 # Create Links to Note Files for Homepages
 for ((i = 0; i < ${#class[@]}; i++)); do
