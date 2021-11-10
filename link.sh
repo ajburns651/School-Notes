@@ -23,4 +23,4 @@ cat final.txt >> ./"${homepage[$i]}" #Pastes the names after the start of the de
 
 done
 
-#rm -rf list.txt final.txt filenameonly.txt withslash.txt beginningdone.txt withoutending.txt
+rm -rf list.txt final.txt filenameonly.txt withslash.txt beginningdone.txt withoutending.txt
