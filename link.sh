@@ -3,10 +3,8 @@
 cd /home/keb/Documents/School-Org-Notes/content/School/
 
 # Define classes as a list of variables
-#class=(AdvBusMgmt APCompSciPrinc Calc3 APStats Gov APLit)
-#homepage=(AdvancedBusinessManagement.org APComputerScience.org Calculus3.org APStatistics.org History.org Literature.org)
-class=(AdvBusMgmt)
-homepage=(AdvancedBusinessManagement.org)
+class=(AdvBusMgmt APCompSciPrinc Calc3 APStats Gov APLit)
+homepage=(AdvancedBusinessManagement.org APComputerScience.org Calculus3.org APStatistics.org History.org Literature.org)
 
 # Create Links to Note Files for Homepages
 for ((i = 0; i < ${#class[@]}; i++)); do
@@ -22,5 +20,6 @@ sed 's/$/]]&/' withoutending.txt > final.txt #Adds the end of the link
 sed -i '/* Notes/,+100 d' ./"${homepage[$i]}"
 echo "* Notes" >> ./"${homepage[$i]}"
 cat final.txt >> ./"${homepage[$i]}" #Pastes the names after the start of the description from line 7
+rm -rf list.txt final.txt filenameonly.txt withslash.txt beginningdone.txt withoutending.txt
 
 done
