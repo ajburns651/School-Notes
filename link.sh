@@ -9,9 +9,6 @@ homepage=(AdvancedBusinessManagement.org APComputerScience.org Calculus3.org APS
 # Create Links to Note Files for Homepages
 for ((i = 0; i < ${#class[@]}; i++)); do
 
-echo "${class[$i]}"
-echo "${homepage[$i]}"
-
 printf "%b\n" $(git ls-tree -r main --name-only | grep org | grep ${class[$i]}) > list.txt
 sed 's/^/\//' list.txt > withslash.txt
 sed 's/^/- [[./' withslash.txt > beginningdone.txt
