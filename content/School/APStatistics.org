@@ -5,7 +5,4 @@
 Taught by Crystal Seitz. Students learn about the major concepts and tools used for collecting, analyzing, and drawing conclusions from data. Students will explore statistics through discussion and activities, and will design surveys and experiments. The AP exam is scheduled for the 5th of May, 2022
 
 * Notes
-- [[./Classes/APLit/MacbethMacbeth]]
-- [[./Questions.orgQuestions]]
-- [[./Classes/APLit/PoetryPoetry]]
-- [[./Vocabulary.orgVocabulary]]
+- [[./Classes/APStats/Vocab.org][Vocab]]
