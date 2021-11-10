@@ -7,3 +7,4 @@ problem-solving strategy, performing appropriate analysis and computation, and c
 meaning of the conclusion or outcome. The majority of work is done on Canva or is handwritten
 
 * Notes
+- [[./Classes/APStats/Vocab.orgVocab]]

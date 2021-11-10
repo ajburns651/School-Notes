@@ -5,3 +5,4 @@
 Taught by Laura McCormick. Students will learn the principles that underlie the science of computing and develop the thinking skills that computer scientists use. You’ll work on your own and as part of a team to creatively address real-world issues using the tools and processes of computation. The AP exam is scheduled for May 9th, 2022
 
 * Notes
+- [[./]]

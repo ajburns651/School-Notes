@@ -5,3 +5,6 @@
 Taught by Crystal Seitz. Students learn about the major concepts and tools used for collecting, analyzing, and drawing conclusions from data. Students will explore statistics through discussion and activities, and will design surveys and experiments. The AP exam is scheduled for the 5th of May, 2022
 
 * Notes
+- [[./Classes/Gov/Key Terms: Institutions.orgKey Terms: Institutions]]
+- [[./Classes/Gov/Unit 1 Test Notes.orgUnit 1 Test Notes]]
+- [[./Classes/Gov/Vocab.orgVocab]]
