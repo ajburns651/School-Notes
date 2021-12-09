@@ -46,3 +46,27 @@
 *** Domain Name System (DNS): the system responsible for translating domain names like example.com into IP addresses
 *** World Wide Web: a system of linked pages, programs, and files
 *** Hypertext Transfer Protocol (HTTP): a protocol for computers to request and share the pages that make up the world wide web on the internet
+
+* Unit 3
+*** User Interface:  the inputs and outputs that allow a user to interact with a  piece of software. User interfaces can include a variety of forms such as buttons, menus, images, text, and graphics
+*** Input:  data that are sent to a computer for processing by a program. Can come in a variety of forms such as tactile interaction, audio, visuals, or text
+*** Output: any data that are sent from a program to a device. Can come in a variety of forms such as tactile interaction, audio, visuals, or text
+*** Program Statement:  a command or instruction. Sometimes referred to as a code statement
+*** Program: a collection of program statements. Programs run (or "execute") one command at a time
+*** Sequential Programming: program statements run in order, from top to bottom. Require no user interaction and code runs the same way every time
+*** Event Driven Programming: some program statements run when triggered by an event, like a mouse click or a key press. Programs run different each time depending on user interactions
+*** Documentation: a written description of how a command or piece of code works or was developed
+*** Comment: form of program documentation written into the program to be read by people and which do not affect how a program runs
+*** Pair Programming:  a collaborative programming style in which two programmers switch between the roles of writing code and tracking or planning high level progress
+
+* Unit 4
+*** String: needs quotes, anything with letters
+*** Number: any number, no quotes
+*** Expression: a combination of operators and values that evaluates to a single value
+*** Variable: holds one value at a time
+*** Assignment Operator: allows a program to change the value represented by a variable
+*** Variable: a reference to a value or expression that can be used repeatedly throughout a program
+*** Boolean Value: true or false
+*** Boolean Expression:  evaluates to either true or false
+*** Function:  a named group of programming instructions. Also referred to as a procedure
+*** Function call:  a command that executes the code within a function
