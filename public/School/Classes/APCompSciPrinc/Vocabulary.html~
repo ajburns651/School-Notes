@@ -21,98 +21,98 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org26be730">Unit 1</a></li>
-<li><a href="#org8aad265">Unit 2</a></li>
-<li><a href="#org7e35258">Unit 3</a></li>
-<li><a href="#org4e8d1e5">Unit 4</a></li>
+<li><a href="#orgc7923e9">Unit 1</a></li>
+<li><a href="#orgb8fe8d9">Unit 2</a></li>
+<li><a href="#org3673599">Unit 3</a></li>
+<li><a href="#org445a430">Unit 4</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org26be730" class="outline-2">
-<h2 id="org26be730">Unit 1</h2>
-<div class="outline-text-2" id="text-org26be730">
+<div id="outline-container-orgc7923e9" class="outline-2">
+<h2 id="orgc7923e9">Unit 1</h2>
+<div class="outline-text-2" id="text-orgc7923e9">
 </div>
 <ul class="org-ul">
-<li><a id="org96d95f4"></a>Bit: A contraction of "Binary Digit"; the single unit of information in a computer, typically represented as a 0 or 1<br /></li>
-<li><a id="org5fbbb02"></a>Byte: 8 bits: 10010101<br /></li>
-<li><a id="org24c3c20"></a>Overflow Error:  Error from attempting to represent a number that is too large<br /></li>
-<li><a id="org10be712"></a>Round-off Error:  Error from attempting to represent a number that is too precise. The value is rounded off.<br /></li>
-<li><a id="orgb4084d3"></a>Abstraction: We create simplified representations of something more complex. Representing text is an example of abstraction.<br /></li>
-<li><a id="org2d8aa47"></a>Analog Data: Data values that change continuously, or smoothly, over time. Some examples of analog data include music, colors of a painting, or position of a sprinter during a race.<br /></li>
-<li><a id="org72c1c39"></a>Digital Data:  data that changes discreetly through a fine set of possible values.<br /></li>
-<li><a id="org1053e89"></a>Sampling:  A process for creating a digital representation of analog data by measuring the analog data at regular intervals called samples<br /></li>
-<li><a id="org0a2b3b2"></a>Lossless Compression: A process for reducing the number of bits needed to represent something without losing any information. This process is reversible<br /></li>
-<li><a id="org7fe0e70"></a>Lossy Compression:  A process for reducing the number of bits needed to represent something in which some information is lost or thrown away. This process is not reversible.<br /></li>
-<li><a id="org5180991"></a>Creative Commons: a license that allows you to freely use materials created by others<br /></li>
-<li><a id="org248b027"></a>Open Source: programs that are made freely available and may be redistributed and modified<br /></li>
-<li><a id="orgc7b85f5"></a>Open Access: online research output free of restrictions to access and use<br /></li>
+<li><a id="orgf2f4ba3"></a>Bit: A contraction of "Binary Digit"; the single unit of information in a computer, typically represented as a 0 or 1<br /></li>
+<li><a id="org3905816"></a>Byte: 8 bits: 10010101<br /></li>
+<li><a id="org3f4b825"></a>Overflow Error:  Error from attempting to represent a number that is too large<br /></li>
+<li><a id="orgbdc694b"></a>Round-off Error:  Error from attempting to represent a number that is too precise. The value is rounded off.<br /></li>
+<li><a id="org232014d"></a>Abstraction: We create simplified representations of something more complex. Representing text is an example of abstraction.<br /></li>
+<li><a id="org8d3edc9"></a>Analog Data: Data values that change continuously, or smoothly, over time. Some examples of analog data include music, colors of a painting, or position of a sprinter during a race.<br /></li>
+<li><a id="org4442199"></a>Digital Data:  data that changes discreetly through a fine set of possible values.<br /></li>
+<li><a id="org75ba74d"></a>Sampling:  A process for creating a digital representation of analog data by measuring the analog data at regular intervals called samples<br /></li>
+<li><a id="orgfed1737"></a>Lossless Compression: A process for reducing the number of bits needed to represent something without losing any information. This process is reversible<br /></li>
+<li><a id="org32a6636"></a>Lossy Compression:  A process for reducing the number of bits needed to represent something in which some information is lost or thrown away. This process is not reversible.<br /></li>
+<li><a id="org97ae252"></a>Creative Commons: a license that allows you to freely use materials created by others<br /></li>
+<li><a id="org7712d80"></a>Open Source: programs that are made freely available and may be redistributed and modified<br /></li>
+<li><a id="org17d8bbe"></a>Open Access: online research output free of restrictions to access and use<br /></li>
 </ul>
 </div>
 
-<div id="outline-container-org8aad265" class="outline-2">
-<h2 id="org8aad265">Unit 2</h2>
-<div class="outline-text-2" id="text-org8aad265">
+<div id="outline-container-orgb8fe8d9" class="outline-2">
+<h2 id="orgb8fe8d9">Unit 2</h2>
+<div class="outline-text-2" id="text-orgb8fe8d9">
 </div>
 <ul class="org-ul">
-<li><a id="org4980fd6"></a>Net Neutrality: Internet service providers should enable access to all content and applications regardless of source, and without favoring or blocking particular products or websites<br /></li>
-<li><a id="org4c9f975"></a>Internet Censorship: the attempt to control or suppress of what can be accessed, published, or viewed on the internet by certain people. This can be used to protect people (such as children) but can also be used to limit free speech<br /></li>
-<li><a id="orgf038655"></a>Computing Device: a machine that can run a program, including computers, tablets, servers, routers, and smart sensors<br /></li>
-<li><a id="org15ead38"></a>Computing System: a group of computing devices and programs working together for a common purpose<br /></li>
-<li><a id="orgc7832e1"></a>Computing Network: a group of interconnected computing devices capable of sending or receiving data<br /></li>
-<li><a id="org8cdd674"></a>Path: The series of connections between computing devices on a network starting with a sender and ending with a receiver<br /></li>
-<li><a id="orgcc9beb3"></a>Bandwidth: the maximum amount of data that can be sent in a fixed amount of time, usually measured in bits per second<br /></li>
-<li><a id="org89cef51"></a>Protocol: An agreed-upon set of rules that specify the behavior of some system<br /></li>
-<li><a id="org6337750"></a>IP Address: The unique number assigned to each device on the internet<br /></li>
-<li><a id="org0a51780"></a>Internet Protocol (IP): a protocol for sending data across the internet that assigns unique numbers (IP addresses) to each connected device<br /></li>
-<li><a id="org15e7229"></a>Router: A type of computer that forwards data across a network<br /></li>
-<li><a id="org3ecadbe"></a>Redundancy: the inclusion of extra components so that a system can continue to work even if individual components fail, for example by having more than one path between any two connected devices in a network<br /></li>
-<li><a id="org60dfc39"></a>Fault Tolerant: Can continue to function even in the event of individual component failures. This is important because elements of complex systems like a computer network fail at unexpected times, often in groups<br /></li>
-<li><a id="orga38133f"></a>DataStream: information passed through the internet as packets<br /></li>
-<li><a id="orgbd6e957"></a>Packet: A chunk of data sent over a network. Larger messages are divided into packets that may arrive at the destination in order, out of order, or not at all<br /></li>
-<li><a id="org5668888"></a>Packet Metadata: Data added to packets to help route them through the network and reassemble the original message<br /></li>
-<li><a id="org50bd5ad"></a>Transmission Control Protocol (TCP): a protocol for sending packets that does error-checking to ensure all packets are received and properly ordered<br /></li>
-<li><a id="orgb9fc494"></a>User Datagram Protocol (UDP): a protocol for sending packets quickly with minimal error-checking and no resending of dropped packets<br /></li>
-<li><a id="org0e43024"></a>Scalability: the capacity for the system to change in size and scale to meet new demands<br /></li>
-<li><a id="org8d47c33"></a>Domain Name System (DNS): the system responsible for translating domain names like example.com into IP addresses<br /></li>
-<li><a id="org801181a"></a>World Wide Web: a system of linked pages, programs, and files<br /></li>
-<li><a id="org575b93f"></a>Hypertext Transfer Protocol (HTTP): a protocol for computers to request and share the pages that make up the world wide web on the internet<br /></li>
+<li><a id="org3e9149c"></a>Net Neutrality: Internet service providers should enable access to all content and applications regardless of source, and without favoring or blocking particular products or websites<br /></li>
+<li><a id="org5f12e6d"></a>Internet Censorship: the attempt to control or suppress of what can be accessed, published, or viewed on the internet by certain people. This can be used to protect people (such as children) but can also be used to limit free speech<br /></li>
+<li><a id="org6ec2e22"></a>Computing Device: a machine that can run a program, including computers, tablets, servers, routers, and smart sensors<br /></li>
+<li><a id="orgf907de7"></a>Computing System: a group of computing devices and programs working together for a common purpose<br /></li>
+<li><a id="org906cec9"></a>Computing Network: a group of interconnected computing devices capable of sending or receiving data<br /></li>
+<li><a id="orgadbe6ee"></a>Path: The series of connections between computing devices on a network starting with a sender and ending with a receiver<br /></li>
+<li><a id="org0704108"></a>Bandwidth: the maximum amount of data that can be sent in a fixed amount of time, usually measured in bits per second<br /></li>
+<li><a id="orge0dbdff"></a>Protocol: An agreed-upon set of rules that specify the behavior of some system<br /></li>
+<li><a id="org82229b6"></a>IP Address: The unique number assigned to each device on the internet<br /></li>
+<li><a id="orga64ee0d"></a>Internet Protocol (IP): a protocol for sending data across the internet that assigns unique numbers (IP addresses) to each connected device<br /></li>
+<li><a id="org3ceb070"></a>Router: A type of computer that forwards data across a network<br /></li>
+<li><a id="orgcd398ad"></a>Redundancy: the inclusion of extra components so that a system can continue to work even if individual components fail, for example by having more than one path between any two connected devices in a network<br /></li>
+<li><a id="org73b787b"></a>Fault Tolerant: Can continue to function even in the event of individual component failures. This is important because elements of complex systems like a computer network fail at unexpected times, often in groups<br /></li>
+<li><a id="org3af990d"></a>DataStream: information passed through the internet as packets<br /></li>
+<li><a id="orgb853dbf"></a>Packet: A chunk of data sent over a network. Larger messages are divided into packets that may arrive at the destination in order, out of order, or not at all<br /></li>
+<li><a id="orgbe5caa8"></a>Packet Metadata: Data added to packets to help route them through the network and reassemble the original message<br /></li>
+<li><a id="orgeaa2d92"></a>Transmission Control Protocol (TCP): a protocol for sending packets that does error-checking to ensure all packets are received and properly ordered<br /></li>
+<li><a id="orgb781b21"></a>User Datagram Protocol (UDP): a protocol for sending packets quickly with minimal error-checking and no resending of dropped packets<br /></li>
+<li><a id="org3da2e1c"></a>Scalability: the capacity for the system to change in size and scale to meet new demands<br /></li>
+<li><a id="org6c3c8b3"></a>Domain Name System (DNS): the system responsible for translating domain names like example.com into IP addresses<br /></li>
+<li><a id="org73f2662"></a>World Wide Web: a system of linked pages, programs, and files<br /></li>
+<li><a id="org3eab8c1"></a>Hypertext Transfer Protocol (HTTP): a protocol for computers to request and share the pages that make up the world wide web on the internet<br /></li>
 </ul>
 </div>
 
-<div id="outline-container-org7e35258" class="outline-2">
-<h2 id="org7e35258">Unit 3</h2>
-<div class="outline-text-2" id="text-org7e35258">
+<div id="outline-container-org3673599" class="outline-2">
+<h2 id="org3673599">Unit 3</h2>
+<div class="outline-text-2" id="text-org3673599">
 </div>
 <ul class="org-ul">
-<li><a id="org79249f8"></a>User Interface:  the inputs and outputs that allow a user to interact with a  piece of software. User interfaces can include a variety of forms such as buttons, menus, images, text, and graphics<br /></li>
-<li><a id="org561d33c"></a>Input:  data that are sent to a computer for processing by a program. Can come in a variety of forms such as tactile interaction, audio, visuals, or text<br /></li>
-<li><a id="orgf6f6011"></a>Output: any data that are sent from a program to a device. Can come in a variety of forms such as tactile interaction, audio, visuals, or text<br /></li>
-<li><a id="org69e2279"></a>Program Statement:  a command or instruction. Sometimes referred to as a code statement<br /></li>
-<li><a id="org264547e"></a>Program: a collection of program statements. Programs run (or "execute") one command at a time<br /></li>
-<li><a id="orgac2dda7"></a>Sequential Programming: program statements run in order, from top to bottom. Require no user interaction and code runs the same way every time<br /></li>
-<li><a id="org6fd3afb"></a>Event Driven Programming: some program statements run when triggered by an event, like a mouse click or a key press. Programs run different each time depending on user interactions<br /></li>
-<li><a id="orgc567551"></a>Documentation: a written description of how a command or piece of code works or was developed<br /></li>
-<li><a id="org1f61082"></a>Comment: form of program documentation written into the program to be read by people and which do not affect how a program runs<br /></li>
-<li><a id="org8b8d28b"></a>Pair Programming:  a collaborative programming style in which two programmers switch between the roles of writing code and tracking or planning high level progress<br /></li>
+<li><a id="org71786db"></a>User Interface:  the inputs and outputs that allow a user to interact with a  piece of software. User interfaces can include a variety of forms such as buttons, menus, images, text, and graphics<br /></li>
+<li><a id="orga2a01b2"></a>Input:  data that are sent to a computer for processing by a program. Can come in a variety of forms such as tactile interaction, audio, visuals, or text<br /></li>
+<li><a id="org3be002e"></a>Output: any data that are sent from a program to a device. Can come in a variety of forms such as tactile interaction, audio, visuals, or text<br /></li>
+<li><a id="orgfe0508f"></a>Program Statement:  a command or instruction. Sometimes referred to as a code statement<br /></li>
+<li><a id="org9514421"></a>Program: a collection of program statements. Programs run (or "execute") one command at a time<br /></li>
+<li><a id="org0ca6af4"></a>Sequential Programming: program statements run in order, from top to bottom. Require no user interaction and code runs the same way every time<br /></li>
+<li><a id="orgaeb7e66"></a>Event Driven Programming: some program statements run when triggered by an event, like a mouse click or a key press. Programs run different each time depending on user interactions<br /></li>
+<li><a id="org62d32ef"></a>Documentation: a written description of how a command or piece of code works or was developed<br /></li>
+<li><a id="org12b8595"></a>Comment: form of program documentation written into the program to be read by people and which do not affect how a program runs<br /></li>
+<li><a id="org801b1bc"></a>Pair Programming:  a collaborative programming style in which two programmers switch between the roles of writing code and tracking or planning high level progress<br /></li>
 </ul>
 </div>
 
-<div id="outline-container-org4e8d1e5" class="outline-2">
-<h2 id="org4e8d1e5">Unit 4</h2>
-<div class="outline-text-2" id="text-org4e8d1e5">
+<div id="outline-container-org445a430" class="outline-2">
+<h2 id="org445a430">Unit 4</h2>
+<div class="outline-text-2" id="text-org445a430">
 </div>
 <ul class="org-ul">
-<li><a id="org155e441"></a>String: needs quotes, anything with letters<br /></li>
-<li><a id="org57845d0"></a>Number: any number, no quotes<br /></li>
-<li><a id="orgb418015"></a>Expression: a combination of operators and values that evaluates to a single value<br /></li>
-<li><a id="org50d7628"></a>Variable: holds one value at a time<br /></li>
-<li><a id="org7afb5aa"></a>Assignment Operator: allows a program to change the value represented by a variable<br /></li>
-<li><a id="org0ca5e0f"></a>Variable: a reference to a value or expression that can be used repeatedly throughout a program<br /></li>
-<li><a id="org0457a4f"></a>Boolean Value: true or false<br /></li>
-<li><a id="org3fbcfa9"></a>Boolean Expression:  evaluates to either true or false<br /></li>
-<li><a id="orgfdd84f2"></a>Function:  a named group of programming instructions. Also referred to as a procedure<br /></li>
-<li><a id="org2daea76"></a>Function call:  a command that executes the code within a function<br /></li>
+<li><a id="org539cfd0"></a>String: needs quotes, anything with letters<br /></li>
+<li><a id="org6aaa375"></a>Number: any number, no quotes<br /></li>
+<li><a id="org23885b5"></a>Expression: a combination of operators and values that evaluates to a single value<br /></li>
+<li><a id="org9b2c3ac"></a>Variable: holds one value at a time<br /></li>
+<li><a id="org22e02ec"></a>Assignment Operator: allows a program to change the value represented by a variable<br /></li>
+<li><a id="orgd70d5b3"></a>Variable: a reference to a value or expression that can be used repeatedly throughout a program<br /></li>
+<li><a id="org1697154"></a>Boolean Value: true or false<br /></li>
+<li><a id="org808b7c8"></a>Boolean Expression:  evaluates to either true or false<br /></li>
+<li><a id="orgab93685"></a>Function:  a named group of programming instructions. Also referred to as a procedure<br /></li>
+<li><a id="org84ea9c7"></a>Function call:  a command that executes the code within a function<br /></li>
 </ul>
 </div>
 </div>
