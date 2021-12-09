@@ -1,6 +1,6 @@
-# One Page
-### A custom startpage built with React.js
-![Screenshot](/src/misc/artwork/screenshot.jpg)
+# School Notes
+### An automatic note taking and publishing system 
+![Screenshot](homepage.png)
 
 ### Install
 ```
