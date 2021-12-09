@@ -21,125 +21,125 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org6f99861">Chapter 1</a>
+<li><a href="#orgcfbf289">Chapter 1</a>
 <ul>
-<li><a href="#org7a5893a">Section 1:</a></li>
-<li><a href="#org96b6a46">Section 2:</a></li>
-<li><a href="#orgf75c5e6">Section 3:</a></li>
+<li><a href="#orgbeb30bc">Section 1:</a></li>
+<li><a href="#org8c8e3c6">Section 2:</a></li>
+<li><a href="#orga4c8f7e">Section 3:</a></li>
 </ul>
 </li>
-<li><a href="#org1b101bf">Chapter 2</a>
+<li><a href="#org091351a">Chapter 2</a>
 <ul>
-<li><a href="#orgd79cee3">Section 1:</a></li>
+<li><a href="#org58f6c95">Section 1:</a></li>
 </ul>
 </li>
-<li><a href="#org3ff471c">Chapter 3</a>
+<li><a href="#org2114a72">Chapter 3</a>
 <ul>
-<li><a href="#org3e9db93">Section 2:</a></li>
+<li><a href="#org957c7c6">Section 2:</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org6f99861" class="outline-2">
-<h2 id="org6f99861">Chapter 1</h2>
-<div class="outline-text-2" id="text-org6f99861">
+<div id="outline-container-orgcfbf289" class="outline-2">
+<h2 id="orgcfbf289">Chapter 1</h2>
+<div class="outline-text-2" id="text-orgcfbf289">
 </div>
-<div id="outline-container-org7a5893a" class="outline-3">
-<h3 id="org7a5893a">Section 1:</h3>
-<div class="outline-text-3" id="text-org7a5893a">
+<div id="outline-container-orgbeb30bc" class="outline-3">
+<h3 id="orgbeb30bc">Section 1:</h3>
+<div class="outline-text-3" id="text-orgbeb30bc">
 </div>
 <ul class="org-ul">
-<li><a id="org0c4eeea"></a>Individuals: the objects described by a set of data. Individuals may be people, animals, or things<br /></li>
-<li><a id="org30ec3b8"></a>Variable: any characteristic of an individual. A variable can take different values for individuals<br /></li>
-<li><a id="orga7546d4"></a>Categorical variable: places an individual into one of several groups or categories<br /></li>
-<li><a id="orgbf8624c"></a>Quantitative variable: takes numerical values for which it makes sense to find an average<br /></li>
-<li><a id="orgb37ebdf"></a>Distribution: The pattern of variation of a variable. Tells us what values the variable takes and how often it takes these values<br /></li>
-<li><a id="org07b9e93"></a>Inference: Drawing conclusions from the data at hand<br /></li>
-<li><a id="org1c15bb3"></a>Pie Chart: Shows the distribution of a categorical variable as a “pie” whose slices are sized by the counts or percents for the categories<br /></li>
-<li><a id="org457eaee"></a>Bar Graphs: Represent each category as a bar. The height of the bar shows the category counts or percents. Are easier to make and easier to read<br /></li>
-<li><a id="org249c312"></a>Segmented Bar Graph: A bar graph where each category of a larger group (male or female for example) is stacked vertically. Able to easily compare the two groups<br /></li>
-<li><a id="org9932692"></a>Marginal Distributions: Appear at the right and bottom margins of the two-way table. The subtotal out of the total. Tells us nothing about the relationship between two categorial variables<br /></li>
-<li><a id="org7cdf71b"></a>Conditional Distribution: Describes the values of that variable among individuals who have a specific value of another variable<br /></li>
-<li><a id="org7322a29"></a>Association: If knowing the value of one variable helps predict the value of another<br /></li>
-<li><a id="org2fbd7db"></a>Two-Way Table: Organizes data about two categorical variables measured for the same set of individuals. Summarizes large amounts of information by grouping outcomes into categories<br /></li>
-<li><a id="orgf030512"></a>Frequency Table: Shows the count of various outcomes in a sample<br /></li>
-<li><a id="org935c394"></a>Relative Frequency Table: Represents the counts of various outcomes in a sample as percentages. Needs to show the fraction, ex 1/2, then the percent, ex 50%<br /></li>
-<li><a id="org37bcff4"></a>Round-off Error: The error between an approximate and the exact mathematical result. Common with percents as they are rounded<br /></li>
+<li><a id="org460c33e"></a>Individuals: the objects described by a set of data. Individuals may be people, animals, or things<br /></li>
+<li><a id="org601d300"></a>Variable: any characteristic of an individual. A variable can take different values for individuals<br /></li>
+<li><a id="orgb0f1523"></a>Categorical variable: places an individual into one of several groups or categories<br /></li>
+<li><a id="org7e0ba4c"></a>Quantitative variable: takes numerical values for which it makes sense to find an average<br /></li>
+<li><a id="orgc9c43d4"></a>Distribution: The pattern of variation of a variable. Tells us what values the variable takes and how often it takes these values<br /></li>
+<li><a id="org634c884"></a>Inference: Drawing conclusions from the data at hand<br /></li>
+<li><a id="org8cfbceb"></a>Pie Chart: Shows the distribution of a categorical variable as a “pie” whose slices are sized by the counts or percents for the categories<br /></li>
+<li><a id="org24601b1"></a>Bar Graphs: Represent each category as a bar. The height of the bar shows the category counts or percents. Are easier to make and easier to read<br /></li>
+<li><a id="orgf26eef9"></a>Segmented Bar Graph: A bar graph where each category of a larger group (male or female for example) is stacked vertically. Able to easily compare the two groups<br /></li>
+<li><a id="org3fda4e7"></a>Marginal Distributions: Appear at the right and bottom margins of the two-way table. The subtotal out of the total. Tells us nothing about the relationship between two categorial variables<br /></li>
+<li><a id="org72695e1"></a>Conditional Distribution: Describes the values of that variable among individuals who have a specific value of another variable<br /></li>
+<li><a id="org450eb71"></a>Association: If knowing the value of one variable helps predict the value of another<br /></li>
+<li><a id="orgf5a0216"></a>Two-Way Table: Organizes data about two categorical variables measured for the same set of individuals. Summarizes large amounts of information by grouping outcomes into categories<br /></li>
+<li><a id="org5496662"></a>Frequency Table: Shows the count of various outcomes in a sample<br /></li>
+<li><a id="org565b82f"></a>Relative Frequency Table: Represents the counts of various outcomes in a sample as percentages. Needs to show the fraction, ex 1/2, then the percent, ex 50%<br /></li>
+<li><a id="orgea63662"></a>Round-off Error: The error between an approximate and the exact mathematical result. Common with percents as they are rounded<br /></li>
 </ul>
 </div>
 
-<div id="outline-container-org96b6a46" class="outline-3">
-<h3 id="org96b6a46">Section 2:</h3>
-<div class="outline-text-3" id="text-org96b6a46">
+<div id="outline-container-org8c8e3c6" class="outline-3">
+<h3 id="org8c8e3c6">Section 2:</h3>
+<div class="outline-text-3" id="text-org8c8e3c6">
 </div>
 <ul class="org-ul">
-<li><a id="orgd9552df"></a>Dotplot: One of the simplest to construct. Each data value is a dot above its location on a number line<br /></li>
-<li><a id="org321c3ae"></a>Outlier: An individual value that falls outside the overall pattern<br /></li>
-<li><a id="org7ba7e2a"></a>Mode: The most common value, data point with the highest frequency<br /></li>
-<li><a id="orgfca8330"></a>Symmetric: If the right and left sides of the graph are approximately mirrored images of each other<br /></li>
-<li><a id="org551e04f"></a>Skewness: Skewed to the right (positive skew) = all values on left side, low amount on right side. Downwards staircase. Skewed left = all values on right side/staircase<br /></li>
-<li><a id="orgcddd0ce"></a>Unimodal: Having only one peak<br /></li>
-<li><a id="orgb536be9"></a>Bimodal: Having two clear peaks<br /></li>
-<li><a id="orgd9d6007"></a>Multimodal: Having three or more peaks<br /></li>
-<li><a id="orgfd0aed1"></a>Stemplot: A graphical display for fairly small data sets. Give us a quick picture of the shape of distribution while including the actual numerical values<br /></li>
-<li><a id="org6b026cd"></a>Back to Back StemPlot: Two stem plots are put back to back with the common stem in the middle. The leaves are ordered outwards from the common stem<br /></li>
-<li><a id="org7c9f3f7"></a>Histogram: Groups nearby values together for quantitive variables. It is an approximate representation of the data<br /></li>
-<li><a id="org42fb8ae"></a>Class: A grouping of values typically for a histogram<br /></li>
-<li><a id="org47a9c72"></a>Range: The difference between the greatest and lowest value<br /></li>
-<li><a id="org4bdfcb3"></a>Median: The middle value. The center value in a set of data<br /></li>
-<li><a id="org1fb518b"></a>Mean: The average of data, add up the values then divide by total number<br /></li>
+<li><a id="orgaf16dc8"></a>Dotplot: One of the simplest to construct. Each data value is a dot above its location on a number line<br /></li>
+<li><a id="org8ee9aa3"></a>Outlier: An individual value that falls outside the overall pattern<br /></li>
+<li><a id="orge252aba"></a>Mode: The most common value, data point with the highest frequency<br /></li>
+<li><a id="org6d8e5eb"></a>Symmetric: If the right and left sides of the graph are approximately mirrored images of each other<br /></li>
+<li><a id="org9164567"></a>Skewness: Skewed to the right (positive skew) = all values on left side, low amount on right side. Downwards staircase. Skewed left = all values on right side/staircase<br /></li>
+<li><a id="org5d9a567"></a>Unimodal: Having only one peak<br /></li>
+<li><a id="org61a156e"></a>Bimodal: Having two clear peaks<br /></li>
+<li><a id="org8682aa6"></a>Multimodal: Having three or more peaks<br /></li>
+<li><a id="orgb60f3a3"></a>Stemplot: A graphical display for fairly small data sets. Give us a quick picture of the shape of distribution while including the actual numerical values<br /></li>
+<li><a id="org7217598"></a>Back to Back StemPlot: Two stem plots are put back to back with the common stem in the middle. The leaves are ordered outwards from the common stem<br /></li>
+<li><a id="org34a8ddb"></a>Histogram: Groups nearby values together for quantitive variables. It is an approximate representation of the data<br /></li>
+<li><a id="orgbcfb2c1"></a>Class: A grouping of values typically for a histogram<br /></li>
+<li><a id="orge0c1706"></a>Range: The difference between the greatest and lowest value<br /></li>
+<li><a id="org9a36149"></a>Median: The middle value. The center value in a set of data<br /></li>
+<li><a id="org1d1601b"></a>Mean: The average of data, add up the values then divide by total number<br /></li>
 </ul>
 </div>
 
-<div id="outline-container-orgf75c5e6" class="outline-3">
-<h3 id="orgf75c5e6">Section 3:</h3>
-<div class="outline-text-3" id="text-orgf75c5e6">
+<div id="outline-container-orga4c8f7e" class="outline-3">
+<h3 id="orga4c8f7e">Section 3:</h3>
+<div class="outline-text-3" id="text-orga4c8f7e">
 </div>
 <ul class="org-ul">
-<li><a id="orgf72f4c8"></a>Mean: the most common measure of center which is the ordinary arthmetic average. X bar, x^_, or mew, u. The mean is sensitive to the influence of extreme observations so several far away outliers would cause the mean to be a worse measure of center. A mean is not a resistant measure of center<br /></li>
-<li><a id="org2d5d1b3"></a>Median: the midpoint of a distribution. The number such that half of the oversvations are bigger and half are smaller. A median is a resistant measure of center<br /></li>
-<li><a id="org446c9e9"></a>Range/Variance: The difference between the maximum and minimum values of a data set<br /></li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org1b101bf" class="outline-2">
-<h2 id="org1b101bf">Chapter 2</h2>
-<div class="outline-text-2" id="text-org1b101bf">
-</div>
-<div id="outline-container-orgd79cee3" class="outline-3">
-<h3 id="orgd79cee3">Section 1:</h3>
-<div class="outline-text-3" id="text-orgd79cee3">
-</div>
-<ul class="org-ul">
-<li><a id="org1f2e7d8"></a>Percentile: the pth percentile of a distribution is the value with p percent of the observations less than it<br /></li>
-<li><a id="org1ebe769"></a>Cumlative Relative Frequency Graph: Plot a point corresponding to the cumulative relative frequency in each class at the smallest value of the next class<br /></li>
-<li><a id="org96a0ba1"></a>Z-Score (Standarized Score): tell us how many standard deviations from the mean an observation falls, and in what direction<br /></li>
-<li><a id="org6c5b09a"></a>Transforming data: Converting the original observation from the original units of measurement to a standardized scale<br /></li>
+<li><a id="org06391c6"></a>Mean: the most common measure of center which is the ordinary arthmetic average. X bar, x^_, or mew, u. The mean is sensitive to the influence of extreme observations so several far away outliers would cause the mean to be a worse measure of center. A mean is not a resistant measure of center<br /></li>
+<li><a id="orgbf04071"></a>Median: the midpoint of a distribution. The number such that half of the oversvations are bigger and half are smaller. A median is a resistant measure of center<br /></li>
+<li><a id="org46352d8"></a>Range/Variance: The difference between the maximum and minimum values of a data set<br /></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org3ff471c" class="outline-2">
-<h2 id="org3ff471c">Chapter 3</h2>
-<div class="outline-text-2" id="text-org3ff471c">
+<div id="outline-container-org091351a" class="outline-2">
+<h2 id="org091351a">Chapter 2</h2>
+<div class="outline-text-2" id="text-org091351a">
 </div>
-<div id="outline-container-org3e9db93" class="outline-3">
-<h3 id="org3e9db93">Section 2:</h3>
-<div class="outline-text-3" id="text-org3e9db93">
+<div id="outline-container-org58f6c95" class="outline-3">
+<h3 id="org58f6c95">Section 1:</h3>
+<div class="outline-text-3" id="text-org58f6c95">
 </div>
 <ul class="org-ul">
-<li><a id="org63093d7"></a>Regression line: a line that describes how a variable y changes as an explanatory variable x changes. We often use a regression line to predict the value of y for a given value of x<br /></li>
-<li><a id="org653a6ac"></a>Extrapolation: the use of a regression line for prediction far outside the interval of values of the explanatory variable x used to obtain the line<br /></li>
-<li><a id="orga3774e3"></a>Residual: is the difference between an observed value of the response variable and the value predicted by the regression line<br /></li>
-<li><a id="org02550a4"></a>Least-Squares Regression Line: the line that makes the sum of the squared residuals as small as possible.<br /></li>
-<li><a id="org6305c3b"></a>Residual Plot: a scatterplot of the residuals against the explanatory variable. Residual plots help us assess whether a linear model is appropriate<br /></li>
-<li><a id="org29a661b"></a>Standard Deviation of Residuals: the approximate size of a typical prediction error<br /></li>
-<li><a id="org1dc1e3f"></a>Coefficent of Determination: the fraction of the variation in the values of y that is accounted for by the least-squares regression line of y on x<br /></li>
-<li><a id="org157167e"></a>Outlier: an observation that lies outside the overall pattern of the other observations. Points that are outliers in the y-direction but not the x-direction of a scatterplot have large residuals. Other outliers may not have large residuals<br /></li>
-<li><a id="org344b2b8"></a>Influential Point: a point that if removed, the result of the calculation would change. Points that are outliers in the x-direction of a scatterplot are often influential for the least-squares regression line<br /></li>
+<li><a id="orgc56cc15"></a>Percentile: the pth percentile of a distribution is the value with p percent of the observations less than it<br /></li>
+<li><a id="orgef3a8a3"></a>Cumlative Relative Frequency Graph: Plot a point corresponding to the cumulative relative frequency in each class at the smallest value of the next class<br /></li>
+<li><a id="org3891864"></a>Z-Score (Standarized Score): tell us how many standard deviations from the mean an observation falls, and in what direction<br /></li>
+<li><a id="org1000ca9"></a>Transforming data: Converting the original observation from the original units of measurement to a standardized scale<br /></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org2114a72" class="outline-2">
+<h2 id="org2114a72">Chapter 3</h2>
+<div class="outline-text-2" id="text-org2114a72">
+</div>
+<div id="outline-container-org957c7c6" class="outline-3">
+<h3 id="org957c7c6">Section 2:</h3>
+<div class="outline-text-3" id="text-org957c7c6">
+</div>
+<ul class="org-ul">
+<li><a id="org644de7d"></a>Regression line: a line that describes how a variable y changes as an explanatory variable x changes. We often use a regression line to predict the value of y for a given value of x<br /></li>
+<li><a id="org3cb4f38"></a>Extrapolation: the use of a regression line for prediction far outside the interval of values of the explanatory variable x used to obtain the line<br /></li>
+<li><a id="orga7d0b10"></a>Residual: is the difference between an observed value of the response variable and the value predicted by the regression line<br /></li>
+<li><a id="orgf653801"></a>Least-Squares Regression Line: the line that makes the sum of the squared residuals as small as possible.<br /></li>
+<li><a id="org57afcca"></a>Residual Plot: a scatterplot of the residuals against the explanatory variable. Residual plots help us assess whether a linear model is appropriate<br /></li>
+<li><a id="org1d34002"></a>Standard Deviation of Residuals: the approximate size of a typical prediction error<br /></li>
+<li><a id="org817111d"></a>Coefficent of Determination: the fraction of the variation in the values of y that is accounted for by the least-squares regression line of y on x<br /></li>
+<li><a id="org4767602"></a>Outlier: an observation that lies outside the overall pattern of the other observations. Points that are outliers in the y-direction but not the x-direction of a scatterplot have large residuals. Other outliers may not have large residuals<br /></li>
+<li><a id="org382e175"></a>Influential Point: a point that if removed, the result of the calculation would change. Points that are outliers in the x-direction of a scatterplot are often influential for the least-squares regression line<br /></li>
 </ul>
 </div>
 </div>
