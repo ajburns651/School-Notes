@@ -45,27 +45,27 @@
 </tbody>
 </table>
 
-<div id="outline-container-org63675b1" class="outline-2">
-<h2 id="org63675b1">Overview</h2>
-<div class="outline-text-2" id="text-org63675b1">
+<div id="outline-container-orgbdbfc30" class="outline-2">
+<h2 id="orgbdbfc30">Overview</h2>
+<div class="outline-text-2" id="text-orgbdbfc30">
 <p>
 This is where I host all of my notes for school. I started this project in my last few months of my junior year and am continuing it through college. The website is built using EMACS org-mode, and org-publish. All of the code is available on my <a href="https://github.com/ajburns651">Github</a> &amp; <a href="https://github.com/ajburns651/School-Notes">Repository</a>
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgf94524f" class="outline-2">
-<h2 id="orgf94524f">About Me</h2>
-<div class="outline-text-2" id="text-orgf94524f">
+<div id="outline-container-orgc197c90" class="outline-2">
+<h2 id="orgc197c90">About Me</h2>
+<div class="outline-text-2" id="text-orgc197c90">
 <p>
 I am currently a senior in highschool at La Costa Canyon. I started this project to benefit my peers learning during the covid pandemic. I realized that due to the online format, many students were struggiling to write down notes, and it was hard to recoup information that was missed if the student was absent. I spent a few weeks creating the original version of this website, which has evolved overtime to what it is now. In the future I hope to expand my platform to allow other students to contribute their own notes.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orga7421fe" class="outline-2">
-<h2 id="orga7421fe">Planned Website Upgrades</h2>
-<div class="outline-text-2" id="text-orga7421fe">
+<div id="outline-container-orgba61cc3" class="outline-2">
+<h2 id="orgba61cc3">Planned Website Upgrades</h2>
+<div class="outline-text-2" id="text-orgba61cc3">
 <ul class="org-ul">
 <li><del>Convert to new format, rescript everything</del></li>
 <li><del>Add ability to use spaces in note names</del></li>
